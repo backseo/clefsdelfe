@@ -1,17 +1,71 @@
-#home {
-  background-color: #D23333;
-  color: white;
+section {
+  background-attachment: fixed;
+}
+
+section.sec-banner {
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  background: url('../images/bg-home00.jpg');
+  background-size: cover;
+}
+
+section.sec-skills {
+  position: relative;
+  background-color: transparent;
+  width: 100%;
+  font-size: 16px;
+}
+
+section.sec-bg-middle {
+  height: 60vh;
+  background: url('../images/bg-home00.jpg');
+  background-size: cover;
+}
+
+section.sec-down {
+  background-color: #262626;
   text-align: center;
-  p {
-    margin-top: 1.5em;
-  }
-  a {
-    color: rgba(0,0,0,0.4);
-    font-weight: bold;
-    font-size: 16px;
-  }
+  color: white;
+}
+
+.home-mainfbox {
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px 10px 10px 10px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.img_wrapper {
+  background-color: #fff;
+  padding-top: 8px;
+  max-width: 230px;
+  text-align: center;
+}
+
+.bg-color {
+  background-color: #262626;
+}
+
+.fx-up {
+  border: red 1px solid;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  top: -100px;
+}
+
+.fx-down {
+  border: red 1px solid;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+}
+
+.footer {
+background-color: black;
+height: 200px;
 }
