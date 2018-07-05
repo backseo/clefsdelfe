@@ -1,10 +1,13 @@
 section {
   background-attachment: fixed;
+  background-color: transparent;
 }
 
 section.sec-banner {
   height: 100vh;
+  background-color: transparent;
   background: url('../images/bg-home00.jpg');
+  background-repeat: repeat;
   background-size: cover;
 }
 
@@ -17,6 +20,7 @@ section.sec-skills {
 
 section.sec-bg-middle {
   height: 60vh;
+  background-color: transparent;
   background: url('../images/bg-home00.jpg');
   background-size: cover;
 }
@@ -49,7 +53,6 @@ section.sec-down {
 }
 
 .fx-up {
-  border: red 1px solid;
   text-align: center;
   position: absolute;
   width: 100%;
@@ -58,7 +61,6 @@ section.sec-down {
 }
 
 .fx-down {
-  border: red 1px solid;
   text-align: center;
   position: absolute;
   width: 100%;
@@ -68,4 +70,8 @@ section.sec-down {
 .footer {
 background-color: black;
 height: 200px;
+}
+
+.bottom {
+  bottom: 0px;
 }
