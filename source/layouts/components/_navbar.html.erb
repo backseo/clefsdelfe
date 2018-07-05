@@ -1,0 +1,39 @@
+<div class="navbar-ficel">
+  <!-- Logo -->
+  <a href="/" class="navbar-ficel-brand">
+    <%= image_tag "lewagon1.gif", alt: "Thanks", width: 50 %>
+  </a>
+<%= link_to 'Accueil' %>
+<%= Date.today %>
+
+  <%= partial 'layouts/components/tab' %>
+  <!-- Right Navigation -->
+  <div class="navbar-ficel-right hidden-xs hidden-sm">
+    <a href="" class="navbar-ficel-item navbar-ficel-link">link 1</a>
+    <a href="" class="navbar-ficel-item navbar-ficel-link">link 2</a>
+    <a href="" class="navbar-ficel-item navbar-ficel-link">link 3</a>
+    <!-- Profile picture with dropdown list -->
+    <div class="navbar-ficel-item">
+      <div class="dropdown">
+        <img src="https://kitt.lewagon.com/placeholder/users/backseo" class="avatar dropdown-toggle" id="navbar-ficel-menu" data-toggle="dropdown">
+        <ul class="dropdown-menu dropdown-menu-right navbar-ficel-dropdown-menu">
+          <li><a href="#">link 4</a></li>
+          <li><a href="#">link 5</a></li>
+          <li><a href="#">Link 6</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dropdown appearing on mobile only -->
+  <div class="navbar-ficel-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-ficel-dropdown-menu">
+        <li><a href="#">Host</a></li>
+        <li><a href="#">Trips</a></li>
+        <li><a href="#">Messages</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
