@@ -4,9 +4,20 @@
   font-family: $headers-font;
   color: black;
   padding: 30px 20px 0px 20px;
+  & h1,  {
+  background-color: rgba(100, 100, 100, 0.5);
+  font-family: $headers-font;
+  font-style: 40px;
+  }
 }
 
-.sec-banner-content h1 {
-  font-weight: lighter;
+.sec-banner-content h2 {
+  background-color: rgba(100, 100, 100, 0.5);
+  font-family: $body-font;
+  padding: 30px;
 }
 
+.sec-banner-content p {
+  font-family: $body-font;
+  padding: 40px;
+}

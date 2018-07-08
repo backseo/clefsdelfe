@@ -3,15 +3,23 @@
   background-color: white;
 }
 
-.button {
-  position: relative;
-
+.p-head {
+  display: flex;
+  justify-content: space-around;
+  vertical-align: center;
+  text-align: center;
 }
+
 .thumbs {
-  transition: color 0.3s ease;
-  padding: 15px 10px 0px 20px;
+  text-align: center;
+  padding: 25px 10px 0px 20px;
   p {
     margin: 0px 20px 0px 8px;
   }
 
+}
+
+.p-texte {
+  text-align: left;
+  padding: 2px 0px 8px 20px;
 }
