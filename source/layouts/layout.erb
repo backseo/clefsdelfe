@@ -11,13 +11,24 @@
     <%= javascript_include_tag "application" %>
     <%= favicon_tag 'images/favicon.png' %>
     <link href="path/to/lightbox.css" rel="stylesheet">
+    <link rel="stylesheet" href="aos/aos.scss" />
   </head>
   <body>
 
     <%= partial 'layouts/components/navbar' %>
     <%= yield %>
-    <script>$(window).stellar();</script>
+
+    <!-- stellar on top of jquery -->
+    <script>$(window).stellar()</script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="javascripts/lightbox.js"></script>
+      <script>
+    AOS.init({
+      offset: 120,
+      duration: 600,
+      easing: 'ease-in-out',
+      delay: 100,
+    });
+  </script>
   </body>
 </html>
