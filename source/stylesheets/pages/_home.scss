@@ -6,7 +6,7 @@ section {
 section.sec-banner {
   height: 100vh;
   background-color: transparent;
-  background: url('../images/bg-home00.jpg');
+  background: url('https://source.unsplash.com/random');
   background-repeat: repeat;
   background-size: cover;
 }
@@ -53,16 +53,19 @@ section.sec-down {
 }
 
 .fx-up {
+  border: 1px red solid;
   text-align: center;
   position: absolute;
-  width: 100%;
+  width: 80%;
   height: 100px;
-  top: -100px;
+  top: -119px;
 }
 
 .fx-down {
+  border: 1px red solid;
   text-align: center;
   position: absolute;
+  width: 80%;
   width: 100%;
   height: 100px;
 }

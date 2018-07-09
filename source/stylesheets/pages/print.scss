@@ -11,9 +11,9 @@
 
 .cont-thumbs {
   text-align: center;
-  padding: 4px 10px 0px 20px;
+  padding: 4px 4px 0px 20px;
   p {
-    margin: 0px 20px 0px 8px;
+    margin: 0px 4px 0px 8px;
   }
 
 }
@@ -23,7 +23,7 @@
   padding: 0px 0px 8px 25px;
 }
 
-.p-titre-affiche {
+.p-titre-section {
   text-align: left;
   padding: 0px 0px 8px 45px;
 }
@@ -33,11 +33,12 @@
 }
 
 .p-contact-button {
-  padding-top: 80px;
+  padding-top: 70px;
 }
 
 a {
   color: black;
+  padding: 4px 2px;
 }
 
 a:hover {
