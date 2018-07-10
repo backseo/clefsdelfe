@@ -6,7 +6,7 @@ section {
 section.sec-banner {
   height: 100vh;
   background-color: transparent;
-  background: url('https://source.unsplash.com/random');
+  background: url('../images/bg-banner.jpg');
   background-repeat: repeat;
   background-size: cover;
 }
@@ -21,7 +21,7 @@ section.sec-skills {
 section.sec-bg-middle {
   height: 60vh;
   background-color: transparent;
-  background: url('../images/bg-home00.jpg');
+  background: url('../images/bg-banner.jpg');
   background-size: cover;
 }
 
