@@ -22,3 +22,17 @@
   font-family: $body-font;
   padding: 40px;
 }
+
+.encart {
+  display: block;
+  margin: 0 auto;
+  max-width: 500px;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 50%;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.1);
+  & h2 {
+
+
+  }
+}

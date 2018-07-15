@@ -6,23 +6,39 @@ section {
 section.sec-banner {
   height: 100vh;
   background-color: transparent;
-  background: url('../images/bg_005.jpg');
-  background-repeat: repeat;
+  background-position: center;
+  background: url('../images/bg_002.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 section.sec-skills {
   position: relative;
+
   background-color: transparent;
   width: 100%;
   font-size: 16px;
 }
 
 section.sec-bg-middle {
-  height: 60vh;
-  background-color: transparent;
-  background: url('../images/bg_002.jpg');
+  height: 70vh;
+  background: url('../images/bg_04.jpg');
+  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  & h2 {
+    position: relative;
+    top: 200px;
+    text-align: center;
+    color: white;
+  }
+  & h3 {
+    position: relative;
+    top: 250px;
+    left: 300px;
+    text-align: center;
+    color: white;
+  }
 }
 
 section.sec-down {
@@ -36,7 +52,7 @@ section.sec-down {
   background-color: white;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 0px 10px;
   width: 100%;
   overflow: hidden;
 }
@@ -67,3 +83,5 @@ height: 200px;
   height: 100px;
   border-radius: 50%;
 }
+
+
