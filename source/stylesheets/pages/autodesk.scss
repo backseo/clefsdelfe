@@ -1,5 +1,9 @@
 .a-container {
-  position: relative;
+    display: flex;
+    justify-content: space-around;
+    vertical-align: center;
+    flex-wrap: wrap;
+    padding: 5px;
 }
 
 .a-textbox {
