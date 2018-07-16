@@ -3,18 +3,8 @@ section {
   background-color: transparent;
 }
 
-section.sec-banner {
-  height: 100vh;
-  background-color: transparent;
-  background-position: center;
-  background: url('../images/bg_002.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 section.sec-skills {
   position: relative;
-
   background-color: transparent;
   width: 100%;
   font-size: 16px;
@@ -52,7 +42,7 @@ section.sec-down {
   background-color: white;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding: 10px 10px 0px 10px;
+  padding: 10px 2px 0px 2px;
   width: 100%;
   overflow: hidden;
 }
@@ -78,10 +68,11 @@ height: 200px;
 }
 
 .avatar-style {
-  margin-top: 20px;
   width: 100px;
   height: 100px;
   border-radius: 50%;
 }
 
-
+.space {
+  padding-left: 30px;
+}

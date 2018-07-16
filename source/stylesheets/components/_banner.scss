@@ -1,3 +1,12 @@
+section.sec-banner {
+  height: 100vh;
+  background-color: transparent;
+  background-position: center;
+  background: url('../images/bg_002.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 // interieur de la banner
 .sec-banner-content {
   text-align: center;
@@ -11,7 +20,7 @@
   }
 }
 
-.sec-banner-content h2 {
+.sec-banner-content h3 {
   // background-color: rgba(100, 100, 100, 0.5);
   font-family: $body-font;
   padding: 30px;
@@ -30,9 +39,10 @@
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 50%;
   border-radius: 8px;
-  color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
   & h2 {
-
+    font-family: $body-font;
+    color: rgba(255, 255, 255, 0.8);
 
   }
 }
