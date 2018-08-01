@@ -1,0 +1,27 @@
+.m-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.m-img {
+  padding: 5px;
+  margin: 5px;
+}
+
+.player {
+  background-color: #756A66;
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.musicbox {
+  max-height: 100px;
+  margin: 10px;
+}
+
+
