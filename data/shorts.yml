@@ -1,5 +1,17 @@
+- title : 'Babymech'
+  slug: 'Modelisation : 3dsmax - Animation et gestion des layers : 3dsMax CAT, <br> Compositing  : After Effect.'
+  realisation: 2016
+  img_link: 'images/bbm1.gif'
+  video_link: 'https://www.youtube.com/watch?v=Ah24qlFK4Ic'
+
 - title : 'kilogo'
   slug: 'Teaser agence de communication.'
-  réal: 2002
-  img_link: 'ballad11.gif'
-  vidéo_link: 'https://www.youtube.com/watch?v=m_LzzPWhhoU'
+  realisation: 2002
+  img_link: 'images/kilo.gif'
+  video_link: 'https://www.youtube.com/watch?v=m_LzzPWhhoU'
+
+- title : "T'emballes pas !"
+  slug: 'Animation de personnage sur fond de Basket-ball.'
+  realisation: 2003
+  img_link: 'images/al yen11.gif'
+  video_link: 'https://www.youtube.com/watch?v=adh9y6P6R-o'
