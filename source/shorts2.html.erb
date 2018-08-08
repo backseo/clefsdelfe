@@ -5,8 +5,10 @@
     </div>
     <div class="p-texte">
       <h1>Animation 3D</h1>
-      <p>Teaser d'entreprise, court-métrage, montage vidéo, compositing.<br>
-      Dans cette section je vous présente quelques animations issues de mon travail de modélisation et de montage audio / vidéo.<br>
+      <p>Dans cette section je vous présente quelques séquences animées issues de mon travail en 3D.<br>
+      Reflet des concepts abordés en modélisation, mapping (textures), rigging (animation), éclairages,<br>
+      caméras, particules, rendu mais également de compositing (montage vidéo).<br>
+      Teaser d'entreprise, courts-métrages, Jinggle TV.<br>
       </p>
     </div>
       <div class="text-center hidden-sm hidden-xs">
@@ -16,16 +18,17 @@
 </div>
 <p></p>
 
-<div class="cont3d">
+
   <div class="container">
     <% data.shorts.each do |short| %>
     <div class="product" data-aos="zoom-in" data-aos-delay="50">
       <div class="product-upvotes">
-        <p>Réalisation : <%= short.realisation %></p>
+        <h4><%= short.title %></h4>
+        <p>Durée : <%= short.durée %><br>Réalisation : <%= short.realisation %></p>
       </div>
       <a href="<%= short.video_link %>" target="_blank"><img src='<%= short.img_link %>' alt="" ></a>
       <div class="product-description">
-        <h4><%= short.title %></h4>
+
         <P><%= short.slug %></P>
       </div>
           <ul class="list-inline poshoriz">
@@ -35,10 +38,8 @@
           </ul>
     </div><!-- fin product -->
     <% end %>
-
-
   </div><!-- fin cont3d -->
-</div><!-- fin container -->
+
 
 <div class="white text-center aered"><%= image_tag "stars.png" %></div>
 
