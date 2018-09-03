@@ -1,15 +1,15 @@
 - title: 'Quad 2018'
   slug: 'Animation de véhicule.'
   realisation: 2018
-  durée: '0.00min'
-  img_link: '#'
-  video_link: '#'
+  durée: '50 secondes'
+  img_link: 'images/quad_short.png'
+  video_link: 'https://www.youtube.com/watch?v=JeRHjoOw4TA'
 - title : 'Babymech'
   slug: "Animation d'un Mecha biped avec gestion de layers - Compositing  : After Effect."
   realisation: 2016
   durée: '27 secondes'
   img_link: 'images/bbm1.gif'
-  video_link: 'https://www.youtube.com/watch?v=Ah24qlFK4Ic'
+  video_link: 'https://www.youtube.com/watch?v=BB9Ga0CEgKQ'
 - title : "Mr Propre"
   slug: 'Animation course de personnage avec CAT (Autodesk).'
   realisation: 2012
