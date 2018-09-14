@@ -1,7 +1,13 @@
+.foot-up {
+  background-image: url('../images/fx-up.png');
+  height: 167px;
+  width: 100%;
+}
+
 .myfooter {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   padding: 10px 50px;
   background-color: black;
 }

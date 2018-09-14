@@ -1,23 +1,9 @@
 .i-container {
-    display: flex;
-    justify-content: space-around;
-    vertical-align: center;
-    flex-wrap: wrap;
-    padding: 5px;
-
-}
-
-.img {
-  margin: 10px;
-}
-
-.img :hover {
-  border: black 1px solid;
-}
-
-.i-titre-affiche {
-  text-align: left;
-  padding: 0px 0px 8px 95px;
+  display: flex;
+  justify-content: space-around;
+  vertical-align: center;
+  flex-wrap: wrap;
+  padding: 5px;
 }
 
 .sec-illust {
@@ -28,3 +14,18 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.img {
+  position: relative;
+  transition: all 0.5s ease 0s;
+}
+
+.img:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.9);
+}
+
+
+
+
+
+

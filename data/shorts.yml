@@ -33,7 +33,7 @@
   realisation: 2004
   durée: '20 secondes'
   img_link: 'images/fromsky1.jpg'
-  video_link: '#'
+  video_link: '../shorts/toycar.mp4'
 - title : "Bureau"
   slug: 'Un personnage quitte le monde virtuel...'
   realisation: 2003
