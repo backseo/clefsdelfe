@@ -22,15 +22,17 @@
   <div class="container">
     <% data.shorts.each do |short| %>
     <div class="product" data-aos="zoom-in" data-aos-delay="50">
-      <div class="product-upvotes">
+      <div class="product-upvotes hidden-xs">
         <h4><%= short.title %></h4>
         <p>Durée : <%= short.durée %><br>Réalisation : <%= short.realisation %></p>
       </div>
-      <a href="<%= short.video_link %>" target="_blank"><img src='<%= short.img_link %>' alt="" ></a>
-      <div class="product-description">
+      <div class="product-image">
+        <a href="<%= short.video_link %>" target="_blank"><img src='<%= short.img_link %>' alt="" ></a>
+      </div>
+      <div class="product-description hidden-xs">
         <P><%= short.slug %></P>
       </div>
-          <ul class="list-inline poshoriz">
+          <ul class="list-inline hidden-xs">
             <li class="list-inline-item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
             <li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
             <li class="list-inline-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
