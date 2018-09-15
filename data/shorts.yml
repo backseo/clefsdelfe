@@ -15,7 +15,13 @@
   realisation: 2012
   durée: '09 secondes'
   img_link: 'images/mrpropre.gif'
-  video_link: '#'
+  video_link: 'shorts/mrpropre.mp4'
+- title : "Toycar"
+  slug: 'Voiture gérée dynamiquement.'
+  realisation: 2005
+  durée: '10 secondes'
+  img_link: 'images/toycar1.jpg'
+  video_link: 'toycar.html'
 - title : 'kilogo'
   slug: 'Teaser agence de communication.'
   realisation: 2004
@@ -64,4 +70,5 @@
   durée: '32 secondes'
   img_link: 'images/ocean11.gif'
   video_link: '#'
+
 
