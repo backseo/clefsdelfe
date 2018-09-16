@@ -19,22 +19,25 @@ section.sec-banner {
 .sec-banner-content p {
   font-family: $body-font;
   padding: 10px;
+  margin-left: 100px;
 }
 
 .encart {
   display: block;
-  margin: 0 auto;
-  padding-top: 10px;
+  margin: 140px auto;
+  padding-top: 20px;
   max-width: 500px;
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 50%;
   border-radius: 8px;
   & h4 {
     font-family: $body-font;
+    font-weight: bold;
     color: rgba(255, 255, 255, 0.8);
-    z-index: 15;
   }
 }
+
+
 
 .video-cont {
   position: relative;
