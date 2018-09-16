@@ -2,7 +2,7 @@ section.sec-banner {
   height: 100vh;
   background-color: transparent;
   background-position: center;
-  background: url('../images/bg_002.jpg');
+  background: url('../images/ficel2.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -13,6 +13,7 @@ section.sec-banner {
   font-family: $headers-font;
   color: white;
   padding-top: 10px;
+  border: 4px green dahed;
 }
 
 .sec-banner-content p {
@@ -23,6 +24,7 @@ section.sec-banner {
 .encart {
   display: block;
   margin: 0 auto;
+  padding-top: 10px;
   max-width: 500px;
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 50%;
@@ -47,7 +49,6 @@ section.sec-banner {
 }
 
 .text-vid {
-  position: absolute;
   color: white;
   padding: 0.4em;
   margin: 0;
