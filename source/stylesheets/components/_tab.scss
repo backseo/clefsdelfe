@@ -34,7 +34,6 @@
 }
 
 .dropdown-content {
-  min-width: 100px;
   display: none;
   position: absolute;
   align-items: center;
@@ -43,7 +42,11 @@
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 18px 6px;
   z-index: 1;
+  margin: 14px auto;
+  left: 0;
+  right: 0;
 }
+
 
 .dropdown:hover .dropdown-content {
   display: block;
