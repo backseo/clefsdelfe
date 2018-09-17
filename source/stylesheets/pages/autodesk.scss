@@ -1,9 +1,10 @@
 .a-container {
-    display: flex;
-    justify-content: space-around;
-    vertical-align: center;
-    flex-wrap: wrap;
-    padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 0px 0px 0px;
+  background-color: #fff;
 }
 
 .a-textbox {
