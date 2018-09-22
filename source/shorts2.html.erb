@@ -12,7 +12,11 @@
       </p>
     </div>
       <div class="text-center hidden-sm hidden-xs">
-        <%= image_tag "ico-3dsmax.png" %><%= image_tag "ico-photoshop.png" %> <%= image_tag "ico-mudbox.png", alt: "Mudbox" %>
+        <h3>Domaine d'expertise</h3>
+        <%= image_tag "ico-3dsmax.png" %>
+        <%= image_tag "ico-photoshop.png" %>
+        <%= image_tag "ico-premiere.png"%>
+        <%= image_tag "ico-afterfx.png", alt: "alttext" %>
       </div>
   </div>
 </div>
@@ -27,7 +31,7 @@
       <div class="mov-real"><p>Réalisation : <%= short.realisation %><br>Durée : <%= short.durée %></p></div>
     </div>
     <div class="mov-img">
-      <a href="<%= short.video_link %>" target="_blank"><img src="<%= short.img_link %>" alt=""></a>
+      <a href="<%= short.video_link %>" target="_blank"><img src="<%= short.img_link %>"></a>
     </div>
     <div class="mov-desc"><p><%= short.slug %></p></div>
     <div class="mov-res">
