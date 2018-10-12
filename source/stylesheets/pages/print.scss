@@ -7,7 +7,7 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  padding: 20px 0px 0px 0px;
+  padding: 20px 0px 8px 0px;
   background-color: #fff;
 }
 
@@ -56,16 +56,11 @@ a:hover {
 }
 
 .sec-print {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 90vh;
-  background-attachment: fixed;
+  height: 80vh;
   background: url('../images/bg-print2.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  overflow: hidden;
 }
 
 .box {
@@ -78,4 +73,15 @@ a:hover {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 720px) {
+  .sec-print {
+  height: 20vh;
+  background: url('../images/bg-print2.jpg');
+  background-position: center;
+  background-size: cover;
+  margin: 4px;
+  border-radius: 4px;
+  }
 }

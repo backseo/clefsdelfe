@@ -4,15 +4,20 @@
       <%= image_tag "ico-shorts.png" %>
     </div>
     <div class="p-texte">
-      <h1>Animation 3D</h1>
+      <h1>Animation 3D / Motion Design</h1>
       <p>Dans cette section je vous présente quelques séquences animées issues de mon travail en 3D.<br>
       Reflet des concepts abordés en modélisation, mapping (textures), rigging (animation), éclairages,<br>
-      caméras, particules, rendu mais également de compositing (montage vidéo).<br>
-      Teaser d'entreprise, courts-métrages, Jinggle TV.<br>
+      caméras, particules, rendu mais également de compositing (montage vidéo) la musique et le bruitage.<br>
+      Teaser d'entreprise, courts-métrages, Jinggle TV, ou simple bannière.<br>
+      Communiquer par l'image...
       </p>
     </div>
       <div class="text-center hidden-sm hidden-xs">
-        <%= image_tag "ico-3dsmax.png" %><%= image_tag "ico-photoshop.png" %> <%= image_tag "ico-mudbox.png", alt: "Mudbox" %>
+        <h3>Domaine d'expertise</h3>
+        <%= image_tag "ico-3dsmax.png" %>
+        <%= image_tag "ico-photoshop.png" %>
+        <%= image_tag "ico-premiere.png"%>
+        <%= image_tag "ico-afterfx.png", alt: "alttext" %>
       </div>
   </div>
 </div>
@@ -27,7 +32,7 @@
       <div class="mov-real"><p>Réalisation : <%= short.realisation %><br>Durée : <%= short.durée %></p></div>
     </div>
     <div class="mov-img">
-      <a href="<%= short.video_link %>" target="_blank"><img src="<%= short.img_link %>" alt=""></a>
+      <a href="<%= short.video_link %>" target="_blank"><img src="<%= short.img_link %>"></a>
     </div>
     <div class="mov-desc"><p><%= short.slug %></p></div>
     <div class="mov-res">
@@ -47,13 +52,13 @@
 <div class="p-container white">
   <div class="p-info-barre">
     <h4>Ma proposition :</h4>
-    <p>1- Vous me faites part de votre projet. Je réceptionne toutes les références nécessaires, cahier des charges.<br>
-      2- Etablissement d'un devis ou forfait journalier.<br />
+    <p>1- Je réceptionne toutes les références nécessaires, le cahier des charges.<br>
+      2- Etablissement d'un devis au forfait journalier et selon les contraintes. <br />
       3- Dès réception de l'acompte, le projet est mis en production.<br />
-      4- Nous suivons ensemble, au fur et à mesure, l'aspect et la pertinence de l'avancement du projet.<br />
+      4- Nous suivons ensemble, au fur et à mesure, l'adéquation dans l'avancement du projet.<br />
       5- Au réglement du solde, le projet est livré dans sa totalité.</p>
   </div>
-  <div class="p-contact-button"><button class="btn btn-success">Me contacter<br>Immédiatement !</button></div>
+  <div class="p-contact-button"><button class="btn btn-success">Me faire part d'un projet <br>ou demander un devis<br>immédiatement !</button></div>
 </div>
 
 <%= partial 'layouts/components/apt' %>
