@@ -11,7 +11,7 @@
   img_link: 'images/bbm1.gif'
   video_link: 'https://www.youtube.com/watch?v=BB9Ga0CEgKQ'
 - title : "Mr Propre"
-  slug: 'Animation course de personnage avec CAT (Autodesk).'
+  slug: 'Process animation course de personnage avec CAT (Autodesk).'
   realisation: 2012
   durée: '09 secondes'
   img_link: 'images/mrpropre.gif'
@@ -39,13 +39,13 @@
   realisation: 2004
   durée: '20 secondes'
   img_link: 'images/fromsky1.jpg'
-  video_link: '../shorts/toycar.mp4'
+  video_link: '../shorts/fromsky.mp4'
 - title : "Bureau"
   slug: 'Un personnage quitte le monde virtuel...'
   realisation: 2003
   durée: '18 secondes'
   img_link: 'images/bureau1231.jpg'
-  video_link: '#'
+  video_link: '../shorts/bureau.mp4'
 - title : "Jardin"
   slug: 'Ne jouez pas au foot près de la fenêtre ! <br> Test de collision et de corps souples donnant lieux à une petite animation.'
   realisation: 2003
