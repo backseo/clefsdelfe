@@ -1,9 +1,4 @@
-- title : 'kilogo'
-  slug: 'Teaser agence de communication.'
-  realisation: 2004
-  durée: '12 secondes'
-  img_link: 'images/kilo.gif'
-  video_link: 'https://www.youtube.com/watch?v=m_LzzPWhhoU'
+
 - title : "T'emballes pas !"
   slug: 'Animation de personnage sur fond de Basket-ball.'
   realisation: 2003
@@ -16,6 +11,12 @@
   durée: '18 secondes'
   img_link: 'images/bureau1231.jpg'
   video_link: '../shorts/bureau.mp4'
+- title : 'kilogo'
+  slug: 'Teaser agence de communication.'
+  realisation: 2004
+  durée: '12 secondes'
+  img_link: 'images/kilo.gif'
+  video_link: 'https://www.youtube.com/watch?v=m_LzzPWhhoU'
 - title: 'Quad 2018'
   slug: 'Mise en scène de véhicule et de son pilote.'
   realisation: 2018
