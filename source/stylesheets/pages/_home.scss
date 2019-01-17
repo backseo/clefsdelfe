@@ -88,4 +88,12 @@ height: 200px;
   border-radius: 50%;
 }
 
-
+.question {
+  background-color: $light-gray;
+  margin: 0 auto;
+  padding: 10 10px;
+  border-radius: 4px;
+  text-align: center;
+  font-family: $headers-font;
+  font-size: 4rem;
+}
