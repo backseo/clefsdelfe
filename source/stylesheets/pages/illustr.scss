@@ -16,11 +16,64 @@
 
 .img {
   position: relative;
+  transition: all 0.3s ease 0s;
+  overflow: hidden;
+}
+
+.img:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  background: white;
+  opacity: .5;
+  font-weight: 900;
   transition: all 0.5s ease 0s;
 }
 
+.img:hover:before {
+  content: "";
+  color: black;
+  position: absolute;
+  width: 100%;
+  left: 150px;
+  height: 100%;
+  background: white;
+  opacity: 0;
+  transition: all 0.5s ease 0s;
+  text-align: center;
+  line-height: 2em;
+  cursor: pointer;
+}
+
+.img:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  right: 0px;
+  background: white;
+  opacity: .5;
+  font-weight: 900;
+  transition: all 0.5s ease 0s;
+}
+
+.img:hover:after {
+  content: "";
+  color: black;
+  position: absolute;
+  width: 100%;
+  right: 150px;
+  height: 100%;
+  background: white;
+  opacity: 0;
+  transition: all 0.5s ease 0s;
+  text-align: center;
+  line-height: 2em;
+  cursor: pointer;
+}
+
 .img:hover {
-  box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  opacity: 0.8;
 }
 
 
