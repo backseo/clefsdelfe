@@ -1,9 +1,10 @@
-.img-m-over {
-  opacity: 0.8;
-}
-
 .white {
   background-color: #fff;
+}
+
+.black {
+  background-color: black;
+  padding-bottom: 10px;
 }
 
 .p-container {
@@ -16,8 +17,10 @@
 }
 
 .cont-thumbs {
+  background: rgba(gray,0);
   margin: 0px 4px;
   text-align: center;
+
   h4 {
     padding: 8px 0px;
   }
@@ -30,13 +33,16 @@
 }
 
 .p-texte {
-  text-align: left;
-  padding: 0px 0px 8px 25px;
+  text-align: center;
+  padding: 0px 25px 8px 25px;
   width: 60%;
+  border-radius: 5px;
+  background: #F3F3F3;
+  transition: all ease-in-out 500ms;
 }
 
 .p-titre-section {
-  background-color: #c8c8c8;
+  background-color: rgba(#F3F3F3,1);
   border-radius: 4px;
   text-align: center;
   padding: 0px 8px 0px 8px;
@@ -60,13 +66,6 @@ a:hover {
   color: purple;
 }
 
-.sec-print {
-  height: 70vh;
-  background: url('../images/bg-print2.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 .box {
   border: 1px red solid;
@@ -80,13 +79,52 @@ a:hover {
   flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 720px) {
+.sec-print {
+  height: 70vh;
+  background: url('../images/bg-print2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 320px) {
   .sec-print {
-  height: 20vh;
+  height: 30vh;
   background: url('../images/bg-print2.jpg');
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   margin: 4px;
   border-radius: 4px;
   }
 }
+
+@media only screen and (min-width: 768px) {
+  .sec-print {
+  height: 40vh;
+  background: url('../images/bg-print2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 4px;
+  border-radius: 4px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .sec-print {
+  background: url('../images/bg-print2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 4px;
+  border-radius: 4px;
+  height: 70vh;
+  }
+}
+
+.p-texte h1 strong {
+  font-size:  1em;
+}
+
+

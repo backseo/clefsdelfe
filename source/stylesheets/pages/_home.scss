@@ -3,15 +3,29 @@ section {
   background-color: transparent;
 }
 
+section.sec-banner {
+  width: 100%;
+  height: 100vh;
+  background-position: middle;
+  background: url('../images/ficel2.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+section.sec-banner-content {
+  display: flex;
+  height: 100px;
+  font-family: $headers-font;
+  color: white;
+}
+
 section.sec-skills {
   position: relative;
-  background-color: transparent;
   width: 100%;
-  font-size: 16px;
 }
 
 section.sec-bg-middle {
-  height: 70vh;
+  height: 400px;
   background: url('../images/bg_04.jpg');
   background-position: center;
   background-size: cover;
@@ -46,16 +60,20 @@ section.sec-down {
   width: 100%;
   overflow: hidden;
 }
+.home-mainfbox img {
+  transition: all ease 500ms;
+}
+
+.home-mainfbox img:hover {
+  transform: scale(1.3);
+  transition: all ease 500ms;
+}
 
 .img_wrapper {
   background-color: #fff;
-  padding-top: 20px;
+  padding-top: 0px;
   max-width: 230px;
   text-align: center;
-}
-
-.bg-color {
-  background-color: #262626;
 }
 
 .footer {
@@ -75,25 +93,4 @@ height: 200px;
 
 .space {
   padding-left: 30px;
-}
-
-.logo img{
-  position: absolute;
-  top: 65vh;
-  left: 60vh;
-  text-align: center;
-  z-index: 10;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-}
-
-.question {
-  background-color: $light-gray;
-  margin: 0 auto;
-  padding: 10 10px;
-  border-radius: 4px;
-  text-align: center;
-  font-family: $headers-font;
-  font-size: 4rem;
 }
