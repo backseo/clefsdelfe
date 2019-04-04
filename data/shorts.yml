@@ -27,7 +27,7 @@
   realisation: 2003
   durée: '18 secondes'
   img_link: 'images/bureau1231.jpg'
-  video_link: '../shorts/bureau.mp4'
+  video_link: 'shorts/bureau.mp4'
 - title : 'kilogo'
   slug: 'Teaser agence de communication.'
   realisation: 2004
@@ -39,7 +39,7 @@
   realisation: 2004
   durée: '20 secondes'
   img_link: 'images/fromsky1.jpg'
-  video_link: '../shorts/fromsky.mp4'
+  video_link: 'shorts/fromsky.mp4'
 
 # - title : "Jardin"
 #   slug: 'Ne jouez pas au foot près de la fenêtre ! <br> Test de collision et de corps souples donnant lieux à une petite animation.'
