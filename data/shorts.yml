@@ -1,28 +1,9 @@
-
-- title : "T'emballes pas !"
-  slug: 'Animation de personnage sur fond de Basket-ball.'
-  realisation: 2003
-  durée: '2.14 minutes'
-  img_link: 'images/alyen11.gif'
-  video_link: 'https://www.youtube.com/watch?v=adh9y6P6R-o'
-- title : "Bureau"
-  slug: 'Un personnage quitte le monde virtuel...'
-  realisation: 2003
-  durée: '18 secondes'
-  img_link: 'images/bureau1231.jpg'
-  video_link: '../shorts/bureau.mp4'
-- title : 'kilogo'
-  slug: 'Teaser agence de communication.'
-  realisation: 2004
-  durée: '12 secondes'
-  img_link: 'images/kilo.gif'
-  video_link: 'https://www.youtube.com/watch?v=m_LzzPWhhoU'
 - title: 'Quad 2018'
-  slug: 'Mise en scène de véhicule et de son pilote.'
+  slug: 'Modelisation du véhicule et de son pilote. Character rigging. Rendu Mental Ray.'
   realisation: 2018
   durée: '50 secondes'
   img_link: 'images/quad_short.png'
-  video_link: 'https://www.youtube.com/watch?v=JeRHjoOw4TA'
+  video_link: 'https://www.youtube.com/watch?v=r_YEqpc8MLw'
 - title : 'Babymech'
   slug: "Animation d'un Mecha biped avec gestion de layers - Compositing  : After Effect."
   realisation: 2016
@@ -35,12 +16,24 @@
   durée: '09 secondes'
   img_link: 'images/mrpropre.gif'
   video_link: 'shorts/mrpropre.mp4'
-- title : "Toycar"
-  slug: 'Voiture gérée dynamiquement.'
-  realisation: 2005
-  durée: '10 secondes'
-  img_link: 'images/toycar1.jpg'
-  video_link: 'toycar.html'
+- title : "T'emballes pas !"
+  slug: 'Modélisation et animation de personnage avec architecture 3dsMax Biped, sur fond de Basket-ball.'
+  realisation: 2003
+  durée: '2.14 minutes'
+  img_link: 'images/alyen11.gif'
+  video_link: 'https://www.youtube.com/watch?v=adh9y6P6R-o'
+- title : "Bureau"
+  slug: 'Un personnage quitte le monde virtuel.'
+  realisation: 2003
+  durée: '18 secondes'
+  img_link: 'images/bureau1231.jpg'
+  video_link: '../shorts/bureau.mp4'
+- title : 'kilogo'
+  slug: 'Teaser agence de communication.'
+  realisation: 2004
+  durée: '12 secondes'
+  img_link: 'images/kilo.gif'
+  video_link: 'https://www.youtube.com/watch?v=m_LzzPWhhoU'
 - title : "From sky"
   slug: 'Intro basée sur 1 idée de présenter différents métiers <br>au plus jeunes grâce au film animé.'
   realisation: 2004
