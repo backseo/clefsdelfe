@@ -10,7 +10,7 @@ $(document).ready(function() {
     function(){ $(this).removeClass('img-m-over') }
  );
 
-   let cible = $('.a-wrapper-titles ul li');
+   var cible = $('.a-wrapper-titles ul li');
       cible.on('click', function(){
       $(this).next('.a-container').toggleClass('hider');
       console.log('toto');
