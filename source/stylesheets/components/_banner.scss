@@ -1,67 +1,49 @@
-.encart {
-  position: relative;
-  margin: 0 auto;
-  max-width: 420px;
-  border-radius: 6px;
-  transition: all ease 1500ms;
+.banner {height: 82vh;
+background: linear-gradient(135deg,
+    rgba(0,0,0,0.8) 0%,
+    rgba(0,0,0,0.3) 50%),
+url(../../images/banner1.jpg);
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: space-around;
+align-items: center;
+text-align: center;
 }
 
-.encart:hover {
-  transform: scale(1.1) rotateY(360deg);
-  transition: all ease 1500ms;
+.banner h1 {
+  font-weight: bolder;
+  color: rgba(255,255,255,0.9);
+  margin-bottom: 40px;
 }
 
-.video-cont {
-  position: relative;
-  width: 100%;
-  height: 480px;
+.banner h2 {
+  font-weight: lighter;
+  color: rgba(255,255,255,0.8);
+  margin-bottom: 40px;
 }
 
-.videobox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.btn-warning {
+  font-weight: 900;
+  transition: all ease-in-out 500ms;
 }
 
-.text-vid {
-  color: white;
-  padding: 0.4em;
-  margin: 0;
-  & p {
-    float: right;
+.btn-warning:hover {
+    color: #fff;
+    background-color: #ff9c00;
+    border: 1px #fff solid;
+    border-radius: 5px;
+    transition: all ease-in-out 500ms;
+}
+
+.reveal {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+@media (max-width: 1250px) {
+  .banner-content h1 {
+  font-size: 2em;
   }
 }
-
-@media only screen and (max-width: 768px) {
-  .encart {
-    top: 220px;
-    margin: 0 auto;
-    padding: 10px 0 10px 0;
-    background-color: #aaa;
-    opacity: 1;
-    height: auto;
-    text-align: center;
-  }
-
-  .encart-txt-pos {
-    color: white;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .encart {
-    top: 200px;
-    margin: 0 auto;
-    padding: 10px 0 10px 0;
-    background-color: rgba(0.5, 0.5, 0.5, 0.5);
-    height: auto;
-    overflow: hidden;
-  }
-
-  .encart-txt-pos {
-    color: white;
-    text-align: center;
-  }
-}
-
-

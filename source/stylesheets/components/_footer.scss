@@ -1,5 +1,11 @@
 .foot-up {
-  background-image: url('../images/fx-up.png');
+  background-image: url('../images/alveol1.png');
+  height: 167px;
+  width: 100%;
+}
+
+.foot-down {
+  background-image: url('../images/fx-down.png');
   height: 167px;
   width: 100%;
 }
@@ -9,22 +15,30 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 50px;
-  background-color: black;
+  background-color: $orange;
 }
 
 .list-menu {
-  color: white;
+  color: black;
+  font-weight: bolder;
   margin: 8px 2px 8px 2px;
 }
 
 .list-menu a {
-  color: white;
-  opacity: 0.5;
+  background: rgba(255, 255, 255, 0.1);
+  color: $gray;
   padding: 0px 10px;
+  transition: all ease-in-out 300ms;
+
 }
 .list-menu a:hover {
-  color: white;
+background: rgba(200, 200, 200, 0.1);
+  border-radius: 2px;
+  opacity: 0.3;
+  color: $red;
   opacity: 1;
+  text-decoration: none;
+  transition: all ease-in-out 300ms;
 }
 
 .centree {

@@ -8,15 +8,13 @@
     <title><%= current_page.data.title %></title>
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application" %>
-    <link href="path/to/lightbox.css" rel="stylesheet">
     <link rel="stylesheet" href="aos/aos.scss" />
   </head>
   <body>
 
-    <%= partial 'layouts/components/navbar' %>
-    <%= yield %>
-    <div class="foot-up"></div>
-    <%= partial 'layouts/components/footer' %>
+      <%= partial 'layouts/components/navbar' %>
+      <%= yield %>
+      <%= partial 'layouts/components/footer' %>
 
     <!-- stellar on top of jquery -->
     <script>$(window).stellar()</script>

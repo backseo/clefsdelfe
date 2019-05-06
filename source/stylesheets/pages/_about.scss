@@ -1,67 +1,35 @@
-#about {
-  height: 100vh;
+.main2 {
+  background: rgba(255,251,188,1);
+  border-radius: 4px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  text-align: center;
-  background-image: linear-gradient(0deg, white 50%, #F4F4F4 50%);
-
-  img {
-    width: 150px;
-  }
-
-  h1 {
-    font-size: 30px;
-    font-weight: bolder;
-    margin-bottom: 30px;
-    margin-top: 0px;
-    color: rgba(0,0,0,0.7);
-  }
-
-  h2 {
-    font-size: 17px;
-    font-weight: bold;
-    color: rgba(0,0,0,0.6);
-  }
-
-  a {
-    color: rgba(0,0,0,0.25);
-    font-weight: bold;
-    letter-spacing: -0.5px;
-    font-size: 15px;
-  }
-
-  .fa-heart {
-    color: #D23333;
-  }
-}
-
-.life {
-  margin: 1em 1em;
-  padding: 2em .2em;
-}
-.life-cell {
-  background: #ddd;
-  display: flex;
-  justify-content: space-around;
-  vertical-align: center;
+  justify-content: space-between;
+  margin: 4px;
+  padding: 4px;
   flex-wrap: wrap;
-  background:gray;
 }
 
-.bloc-text {
-  max-width: 480px;
-  border: 1px black solid;
-  margin: 0.5em 0.5em;
-  padding: 1em 1em;
-  background: #CDFFE9;
-  overflow: hidden;
-  & h3 {
-    text-align:center;
-  }
+.d0 {
+  padding: 2px 2px 2px 2px;
+  max-width: 75%;
+  margin: 0 auto;
 }
 
+.d1 {
+  padding: 0px 10px 10px 10px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
 
-.life-data p{
-  text-indent: 3em;
+.d2 {
+  padding: 2px 2px 2px 2px;
+  max-width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.plan {
+  background: rgba(255,251,188,1);
+  border-radius: 4px;
+  margin: 0 auto;
 }
