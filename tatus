@@ -1,0 +1,964 @@
+[33mcommit 88044ea126c5fc8a44ba886a39960b14ee953eae[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Wed May 8 15:06:19 2019 +0200
+
+    home with navigation and footer
+
+[33mcommit 554621ec610866d8e63a9a1adb02214c1125f60c[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Mon May 6 19:13:23 2019 +0200
+
+    middleman new
+
+[33mcommit a1124aa0ea973f20a660de445a58d74c85b600e0[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Wed Apr 17 00:09:33 2019 +0200
+
+    Design modif
+
+[33mcommit 5d6fa5e1e3fbb86a2f0afc4471e6cd8f09ea4f03[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Thu Apr 4 21:07:26 2019 +0200
+
+    fix link in shorts.yml
+
+[33mcommit edc806282479c1dc599d44189b5617e7a97afa92[m
+Merge: f80a6ad 38bb8ea
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Thu Apr 4 18:13:14 2019 +0200
+
+    Merge pull request #47 from backseo/fix_mp3
+    
+    try to fix mp3 relative path after deploy
+
+[33mcommit 38bb8ea005c2f5eeeb93c226b619fe7e027e6430[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Thu Apr 4 18:09:34 2019 +0200
+
+    try to fix mp3 relative path after deploy
+
+[33mcommit f80a6adb33a8cf2250906061ccd83744c9bf4627[m
+Merge: c52f927 294ef20
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Thu Apr 4 16:44:51 2019 +0200
+
+    Merge pull request #46 from backseo/change_yml
+    
+    change shorts
+
+[33mcommit 294ef2065685afdb0fc7345835acd01df8cbf123[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Thu Apr 4 16:42:53 2019 +0200
+
+    change shorts
+
+[33mcommit c52f927199b405dddb30ecafc2c111d953678b1d[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Thu Apr 4 16:22:21 2019 +0200
+
+    link to homepage
+
+[33mcommit 280f36413f2be2cd5d3fbf2fc34daa2fdc909fc8[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Thu Apr 4 15:53:06 2019 +0200
+
+    change let by var
+
+[33mcommit a50e265c06b3b2a572b646a976918e92479e8c1f[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Thu Apr 4 15:07:52 2019 +0200
+
+    fix java
+
+[33mcommit 10b0af089906f82e58706381e9750516dab33150[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Thu Apr 4 14:13:39 2019 +0200
+
+    javascripts button hover
+
+[33mcommit c180490a88a85acaba1ba7f0356c0fb038ea312a[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Thu Mar 21 21:27:09 2019 +0100
+
+    about
+
+[33mcommit 094f636fa5dee59b2e5e2d8c3d7f3b3a15d07a2c[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Thu Mar 21 16:10:29 2019 +0100
+
+    add img banner and dev
+
+[33mcommit 0a018045af52b331f98a8c34acb90ad8c9fea225[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Tue Mar 19 21:14:34 2019 +0100
+
+    full rebuild
+
+[33mcommit e6cec5691788c30165bfe352b4b88dd837cbf19d[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Wed Feb 27 13:02:30 2019 +0100
+
+    add html css exemple in web-dev
+
+[33mcommit 136afef06153b3b6097d34d4811663a5b8d1651c[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Wed Feb 27 12:49:12 2019 +0100
+
+    add section html css exemple in dev-web
+
+[33mcommit ba37d184253345537153d4da879e1ac7df479748[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Mon Feb 25 13:16:36 2019 +0100
+
+    scss
+
+[33mcommit 7b503842440a9477c8eea65ab8107eab1fcbf161[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Mon Feb 25 11:26:34 2019 +0100
+
+    some java on img
+
+[33mcommit 6b2a2de703fef9a0a56e441c5c778a3046be59e1[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Sat Feb 9 15:02:54 2019 +0100
+
+    extend textarea in contact form
+
+[33mcommit 310780e23ddc802f06081b02e42f2000280c5895[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Thu Feb 7 23:08:05 2019 +0100
+
+    last
+
+[33mcommit 4886542c14ea4a30bffccf80d93371935368aeaf[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Thu Feb 7 17:20:13 2019 +0100
+
+    porfolio is better
+
+[33mcommit c451b307af6028124370e00bc1a11e3cb5bcd568[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Fri Feb 1 16:57:50 2019 +0100
+
+    modif illustr
+
+[33mcommit dfa92b5be5d5b1a368ff4d370b9bd5ccee52ff2b[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Thu Jan 17 23:06:16 2019 +0100
+
+    modifs ++
+
+[33mcommit 2f20e102adfce45a15c0c9e9dbb44057bfff7029[m
+Merge: a1946e9 abb595f
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Thu Jan 17 21:40:36 2019 +0100
+
+    Merge branch 'update'
+
+[33mcommit a1946e968143a9e1aa786abb0eba8ca9eff72ee4[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Thu Jan 17 21:26:47 2019 +0100
+
+    gemfile rack update to 2.0.6
+
+[33mcommit abb595f6b91cf6b7c676eee529d74fc581a6f94c[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Fri Jan 18 02:06:40 2019 +0700
+
+    idontrememberwhat
+
+[33mcommit 484304ec3c0ae1ceef9e11180e815bf56f5fdf91[m
+Merge: b253e03 f31c8d5
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Fri Nov 2 16:00:41 2018 +0100
+
+    Merge pull request #40 from backseo/alyen
+    
+    alyen11 rename
+
+[33mcommit f31c8d5167005ae1a649aa5debcd24f4e143fc7d[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Fri Nov 2 15:57:52 2018 +0100
+
+    alyen11 rename
+
+[33mcommit b253e03f800f2ffd5f561a62862488f30fceffb8[m
+Merge: 0882ea1 a115318
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Mon Oct 29 00:13:27 2018 +0100
+
+    Merge pull request #39 from backseo/Modifs_globales
+    
+    modifs texte
+
+[33mcommit a11531854bcbc841dc8f87609ce20c031503cd26[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Mon Oct 29 00:11:37 2018 +0100
+
+    modifs texte
+
+[33mcommit 0882ea184b63ac4c08927f685ddaebf9c347a495[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Sun Oct 28 11:45:13 2018 +0100
+
+    add links to contact
+
+[33mcommit c896e4e7b140bd2a62911554049f04b747a503da[m
+Merge: 3cbaa0e 559a7a8
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Thu Oct 18 02:13:31 2018 +0200
+
+    Merge pull request #38 from backseo/data_shorts
+    
+    change order in shorts
+
+[33mcommit 559a7a8a4ff0bd982785aeb40d5b520758a6fb37[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Thu Oct 18 02:10:53 2018 +0200
+
+    change order in shorts
+
+[33mcommit 3cbaa0e4cded94e72d949d38899be38c3bda4e54[m
+Merge: 4be0a10 fb1e016
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Tue Oct 16 19:58:29 2018 +0200
+
+    Merge pull request #37 from backseo/modif_text3
+    
+    Modif texte and add mp4
+
+[33mcommit fb1e016101cecd6fa57aa883135e3a282d4cbb0d[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Tue Oct 16 19:56:06 2018 +0200
+
+    add vid
+
+[33mcommit 2a8963d231ccce8309dd199a87821606a70c0e49[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Tue Oct 16 15:37:29 2018 +0200
+
+    change text4
+
+[33mcommit 7206e3526a707a1b4a33e8084a15060d474a28f7[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Mon Oct 15 15:08:08 2018 +0200
+
+    changes textes 1
+
+[33mcommit 4be0a102cd381364c9a361bc0d34f9bc4b1acffa[m
+Merge: 5506574 0e13bb4
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Sat Oct 13 00:29:02 2018 +0200
+
+    Merge pull request #36 from backseo/index_bgi-resp
+    
+    Index bgi resp
+
+[33mcommit 0e13bb4f3ade0330011a1d9e129762272eb169e2[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Sat Oct 13 00:27:47 2018 +0200
+
+    change some text
+
+[33mcommit c6f0353ec491930cad47a841d286d6e0200e4a9f[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Sun Sep 23 01:15:47 2018 +0200
+
+    style css
+
+[33mcommit 55065740a0f8672ef688457a6bf1f81023fe8279[m
+Merge: 6c0ddf0 55a16d9
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Sat Sep 22 04:15:45 2018 +0200
+
+    Merge pull request #35 from backseo/application_design
+    
+    add text
+
+[33mcommit 55a16d92cd2d749d024ace47f963291c95ad46a8[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Sat Sep 22 04:14:40 2018 +0200
+
+    add text
+
+[33mcommit 6c0ddf046d96b85075ed1c6cd77f6ed493418f61[m
+Merge: 9b436e6 4d74282
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Thu Sep 20 23:08:59 2018 +0200
+
+    Merge pull request #34 from backseo/les_chiffres_swf
+    
+    add link to les chiffres swf
+
+[33mcommit 4d74282bd463a37f64e14ef0222f3e35d164c931[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Thu Sep 20 23:05:51 2018 +0200
+
+    add link to les chiffres swf
+
+[33mcommit 9b436e618cb92a03f3a2b07765360e316befcd71[m
+Merge: 20a1d70 c4b3005
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Thu Sep 20 22:48:27 2018 +0200
+
+    Merge pull request #33 from backseo/fixnav2
+    
+    fix navbar v2 - update some text
+
+[33mcommit c4b300564164ce94d585cc34e9a5e040b833cbc3[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Thu Sep 20 22:46:22 2018 +0200
+
+    fix navbar v2 - update some text
+
+[33mcommit 20a1d70fb4a4925ff54e68c57620ba2b18d3f042[m
+Merge: 92ab3c8 8f14c1e
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Tue Sep 18 01:15:37 2018 +0200
+
+    Merge pull request #32 from backseo/navbar
+    
+    fix tab alignment toogle
+
+[33mcommit 8f14c1ed6540b7333ec646c0a745f4bbcf715ef8[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Tue Sep 18 01:14:27 2018 +0200
+
+    fix tab alignment toogle
+
+[33mcommit 92ab3c81a75cad1b859b88af8b55d338f426b0db[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Mon Sep 17 03:05:42 2018 +0200
+
+    delete eclair png
+
+[33mcommit 4450009a12961d4a054073b6d5514aa80d4b0e62[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Mon Sep 17 03:03:01 2018 +0200
+
+    try to fix formspree emailer
+
+[33mcommit 1a1db7071174a344f2adad9c2737e9d3d0ab93a7[m
+Merge: e56f79d f1b3581
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Mon Sep 17 02:46:31 2018 +0200
+
+    Merge pull request #31 from backseo/delete_unused
+    
+    done
+
+[33mcommit f1b3581a23decce793ab1e0dd1697eee53253fca[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Mon Sep 17 02:42:43 2018 +0200
+
+    done
+
+[33mcommit e56f79dd728902803c7d8c447d7ac06b11d849bb[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Mon Sep 17 01:48:21 2018 +0200
+
+    delete unused img
+
+[33mcommit 51790fd613ed30ec370aab7aaeab6f55beb93a32[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Sun Sep 16 18:53:35 2018 +0200
+
+    better responsive
+
+[33mcommit 88f70ef9aada34c7b83577a495ef71a935015cf9[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Sun Sep 16 02:20:02 2018 +0200
+
+    oups
+
+[33mcommit b84922e0a64fb13f96b521e7871597cd508b68ae[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Sun Sep 16 01:27:29 2018 +0200
+
+    try to fix 404 banvid
+
+[33mcommit b7aace796a02b35c8e8adbcb6c7709c5dc4dc9c3[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Sun Sep 16 00:19:05 2018 +0200
+
+    add contact form
+
+[33mcommit 2433130fba3d856127b4481333c8208010cc6915[m
+Merge: 8c7dc4b 874f2c9
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Sat Sep 15 22:14:13 2018 +0200
+
+    Merge pull request #30 from backseo/add_link_mrpropre
+    
+    Add link mrpropre
+
+[33mcommit 874f2c9c05981d5727a0e31d0ce28dfc7d0a6054[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Sat Sep 15 22:11:29 2018 +0200
+
+    fix short_yml and hide sectio icons in xs view
+
+[33mcommit 68fdb9e032bb9d797d5e9e38b3da052beda07a85[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Sat Sep 15 21:45:47 2018 +0200
+
+    addmrpropre mp4
+
+[33mcommit 8c7dc4be2c94d2af4632ed2fa8802fe2807bbb76[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Sat Sep 15 18:01:35 2018 +0200
+
+    shorts section is responsive
+
+[33mcommit 60c648072b156da11ff80ab7b50c0c1842519aee[m
+Merge: 32bd205 e40f7a4
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Sat Sep 15 05:36:28 2018 +0200
+
+    Merge pull request #29 from backseo/shorts-responsive
+    
+    shorts responsive
+
+[33mcommit e40f7a4b01e90ac25548c0137d23e4d08178c646[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Sat Sep 15 05:35:30 2018 +0200
+
+    shorts responsive
+
+[33mcommit 32bd205333f2b9223fa8f06dac1088ccfde5072f[m
+Merge: befb702 c31ea41
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Sat Sep 15 03:41:26 2018 +0200
+
+    Merge pull request #28 from backseo/test_video_banner
+    
+    add video to banner
+
+[33mcommit c31ea41fdeb915c4ce59a1cae29986eedb28009d[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Sat Sep 15 03:39:28 2018 +0200
+
+    add video to banner
+
+[33mcommit befb7029343c352f2b70652c2435274fcb9106f3[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Fri Sep 14 22:17:08 2018 +0200
+
+    add banvid2 in shorts
+
+[33mcommit 63bc89ed64341705037ba8cc8ae7d5a3d0373e41[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Fri Sep 14 21:56:41 2018 +0200
+
+    review print section
+
+[33mcommit cc81291a1a81f4929d7fe9505f3c89032988152a[m
+Merge: c494c1a 9c246eb
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Mon Sep 3 21:31:26 2018 +0200
+
+    Merge pull request #27 from backseo/web_section
+    
+    tests graphiques
+
+[33mcommit 9c246eba53907ed94de7aa585ad2192902d98b0a[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Mon Sep 3 21:19:14 2018 +0200
+
+    tests
+
+[33mcommit c494c1a4032edf7ce597c3b8ca08115584a72b7c[m
+Merge: fbeb644 5231b46
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Fri Aug 31 17:55:27 2018 +0200
+
+    Merge pull request #26 from backseo/music
+    
+    add images in illutra
+
+[33mcommit 5231b46a3156ab579943488e88fdc7ad03b40cbd[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Fri Aug 31 17:52:44 2018 +0200
+
+    add images in illutra
+
+[33mcommit fbeb6449756070bef8a4bb5f78f69e49f647f78f[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Wed Aug 8 03:17:36 2018 +0200
+
+    shorts data.yml and footer links
+
+[33mcommit 4e45bc24f8079ddba14fa83e083c93c2d838a627[m
+Merge: ee714a0 4601e33
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Tue Aug 7 20:03:10 2018 +0200
+
+    Merge pull request #25 from backseo/update_link
+    
+    start shorts.yml and test page
+
+[33mcommit 4601e33f44e2a63476a9daec05ba72701bc4ad52[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Tue Aug 7 20:01:06 2018 +0200
+
+    start shorts.yml and test page
+
+[33mcommit ee714a007930f7c8ef5e927cb449dd184eaabe6a[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Fri Aug 3 21:00:47 2018 +0200
+
+    add mp3
+
+[33mcommit c255e5a3320ada0ff8e75f056c7b694a1d6ca103[m
+Merge: a1b18b4 48dc523
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Fri Aug 3 09:45:51 2018 +0200
+
+    Merge pull request #24 from backseo/gif
+    
+    complete all sections
+
+[33mcommit 48dc523c9f3a3b2983c3bf59b5c6bc59e6709159[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Fri Aug 3 09:44:38 2018 +0200
+
+    complete all sections
+
+[33mcommit a1b18b43271eca60db4e7170fed1e7babc393635[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Fri Aug 3 05:28:04 2018 +0200
+
+    add helper to index
+
+[33mcommit a95c87832484d2038ba4171385eb8cd61d895f8f[m
+Merge: 65eb0bf 69dd6f0
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Wed Aug 1 16:45:09 2018 +0200
+
+    Merge pull request #23 from backseo/go_ahead
+    
+    add music section and files
+
+[33mcommit 69dd6f024bb8429dc36978a2800ea9a3e606109f[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Wed Aug 1 15:43:59 2018 +0200
+
+    add music section and files
+
+[33mcommit 65eb0bfe1014430662a5934c8345282307c71bc1[m
+Merge: d0b3a92 b2b58dd
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Wed Aug 1 14:18:42 2018 +0200
+
+    Merge pull request #22 from backseo/logo_home
+    
+    modif apt
+
+[33mcommit d0b3a923662846d361ed37cb823e9003d235dff1[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Wed Aug 1 14:15:16 2018 +0200
+
+    fix nav and index devsection
+
+[33mcommit b2b58dd1d3f022b72e2785fcf12c9faa280dcda3[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Wed Aug 1 14:06:42 2018 +0200
+
+    modif apt
+
+[33mcommit b444a54f2f18a3a269166a27d200fa19d5be34da[m
+Merge: ba748c5 241d567
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Mon Jul 30 02:18:22 2018 +0200
+
+    Merge pull request #21 from backseo/modifications
+    
+    update dev section
+
+[33mcommit 241d5675158b0d9cfc7dbc360eb4c9bba5b935aa[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Mon Jul 30 02:17:23 2018 +0200
+
+    update dev section
+
+[33mcommit ba748c5124c394b68a099a7c35197aff7f4f9c8c[m
+Merge: 752ff8f 56c67fd
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Sun Jul 29 18:16:18 2018 +0200
+
+    Merge pull request #20 from backseo/devsection
+    
+    delete unused img add dev sections
+
+[33mcommit 56c67fdea3113bc1e6820355bc6d23c2138590af[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Sun Jul 29 18:12:39 2018 +0200
+
+    delete unused img add dev sections
+
+[33mcommit 752ff8f9b14fd98c93cbf30e96188c6e898c84d4[m
+Merge: ff53cf9 72a206e
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Sat Jul 28 22:21:01 2018 +0200
+
+    Merge pull request #19 from backseo/change_nav
+    
+    change nav and add icon and images
+
+[33mcommit 72a206e585d2184cc6c7b63b80cc74f6fef23586[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Sat Jul 28 22:19:27 2018 +0200
+
+    change nav and add icon and images
+
+[33mcommit ff53cf94c5e964020af79d49f115ee28e2dddefb[m
+Merge: cc40824 5412b02
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Sat Jul 28 04:15:39 2018 +0200
+
+    Merge pull request #18 from backseo/add_content_to_pages
+    
+    add cartes de visite et logo img
+
+[33mcommit 5412b025b9cbe7ffd2dc78fcc6675da80a6c4684[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Sat Jul 28 04:13:32 2018 +0200
+
+    add cartes de visite et logo img
+
+[33mcommit cc40824457764a88b53b601b43d8fd1c2f74e3fa[m
+Merge: 6e7dcb4 b3ea4c2
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Fri Jul 27 01:13:00 2018 +0200
+
+    Merge pull request #17 from backseo/add_some_gifs
+    
+    Add some gifs
+
+[33mcommit b3ea4c2ce54881c81eeb15a6fcb1509b3f47c1b5[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Fri Jul 27 01:09:18 2018 +0200
+
+    add some gifs
+
+[33mcommit 18bb46b4c8f303caf63c99c18db3841be9a16309[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Thu Jul 26 18:57:26 2018 +0200
+
+    add gifs
+
+[33mcommit 6e7dcb45f218d53a08d76587dea39ceeab12764a[m
+Merge: 5524008 84ac14a
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Wed Jul 18 00:10:59 2018 +0200
+
+    Merge pull request #16 from backseo/lightbox_multi
+    
+    multi lightbox some images ok
+
+[33mcommit 84ac14a4836bb491cc2774b84ba888b8d3f8b0e1[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Wed Jul 18 00:09:28 2018 +0200
+
+    multi lightbox some images
+
+[33mcommit 55240089e09c87fa2c31eeeda670f2d509659c7f[m
+Merge: 4e36ace 9ad04a1
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Tue Jul 17 06:24:41 2018 +0200
+
+    Merge pull request #15 from backseo/ma_branche
+    
+    Ma branche
+
+[33mcommit 9ad04a11f9f236be949af31d1e08b5560a4f8983[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Tue Jul 17 06:20:06 2018 +0200
+
+    change autodesk
+
+[33mcommit dce8ded77f042a3b02aaee281cfeb204c3422bec[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Mon Jul 16 19:32:50 2018 +0200
+
+    responsive gifs section
+
+[33mcommit 4e36ace29ec70cb62bd41b53e170bb1203189b0a[m
+Merge: e567a97 5c09e86
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Mon Jul 16 17:40:02 2018 +0200
+
+    Merge pull request #14 from backseo/change_navbar
+    
+    Change navbar
+
+[33mcommit 5c09e8605b8979b7106c1296572f19a7c5d70564[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Mon Jul 16 17:36:43 2018 +0200
+
+    add planchebd html
+
+[33mcommit 4020ffe2205907c9d264c9c0b1ac73309a407f17[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Mon Jul 16 17:03:25 2018 +0200
+
+    stellar on print section
+
+[33mcommit f5ba190b3d1ab66ff1e11edfd9b452001e2d1d32[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Mon Jul 16 16:24:31 2018 +0200
+
+    add images
+
+[33mcommit db0719f3e6549afa2f375d38a3e8496ef256c745[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Sun Jul 15 13:30:07 2018 +0200
+
+    change navbar and make modelisation responsive
+
+[33mcommit e567a973a0833fd7e02fda974b7494d1d7a7fa36[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Sun Jul 15 03:17:44 2018 +0200
+
+    add partials nav to all sections
+
+[33mcommit e2a7e60ef5a8a37041e3fa1bad5370b736ac22ab[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Sat Jul 14 23:09:24 2018 +0200
+
+    add images ans some links
+
+[33mcommit 389fcdb04eb127591f066413bc479103ec1e0b8a[m
+Merge: 2bc6e6f 8a182f0
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Thu Jul 12 07:40:29 2018 +0200
+
+    Merge pull request #13 from backseo/add_Lightbox_to_modelisation
+    
+    lightbox check
+
+[33mcommit 8a182f08cc14f505ef0865547ef07a09b1334d43[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Thu Jul 12 07:38:25 2018 +0200
+
+    lightbox check
+
+[33mcommit 2bc6e6fd291edddd4d6380cd22908c00dafcfe25[m
+Merge: 0f686fa 332fa3d
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Wed Jul 11 19:49:45 2018 +0200
+
+    Merge pull request #12 from backseo/add_behavior_to_img
+    
+    behavior to img illustration, better display footer
+
+[33mcommit 332fa3deba9fceb0d857ea1dc75551265025271d[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Wed Jul 11 19:45:19 2018 +0200
+
+    behavior to img illustration, better display footer
+
+[33mcommit 0f686fa72bface7c9ced3ba36a9a1e90c3291d0c[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Wed Jul 11 16:15:46 2018 +0200
+
+    deleted logo
+
+[33mcommit 686041af87f86434e49db02bc77cc6ffaddaa7f6[m
+Merge: db5454e f3f7ae4
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Wed Jul 11 06:13:48 2018 +0200
+
+    Merge pull request #11 from backseo/shortspage
+    
+    Shortspage
+
+[33mcommit f3f7ae4d56f6856606877a0230b2840d9df0ef38[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Wed Jul 11 06:06:39 2018 +0200
+
+    add shorts-page, pictures and icons
+
+[33mcommit 7bce395b2d211c680374f1ed2a4ad311e120ba01[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Tue Jul 10 15:18:37 2018 +0200
+
+    add link to home page
+
+[33mcommit db5454e4848c841f78b42f781805c43c203c553f[m
+Merge: 05a8bec 21723f1
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Tue Jul 10 07:50:12 2018 +0200
+
+    Merge pull request #10 from backseo/add_title_to_gifs
+    
+    add section proposition to print illustration autodesk
+
+[33mcommit 21723f104f6dba33268be108f4d47ddd46adb35d[m
+Merge: 3971e9e 05a8bec
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Tue Jul 10 07:49:53 2018 +0200
+
+    Merge branch 'master' into add_title_to_gifs
+
+[33mcommit 05a8bec5828bb09ae816667a7d62ab8002e0cdb4[m
+Merge: eed1115 1055a5f
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Tue Jul 10 07:42:25 2018 +0200
+
+    Merge pull request #9 from backseo/change_banner
+    
+    change bg banner
+
+[33mcommit 3971e9eb101e2a1aad60697f4a6f594867b8421d[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Tue Jul 10 07:39:03 2018 +0200
+
+    add section proposition to print illustration autodesk
+
+[33mcommit 1055a5f627af89e4af5d2e82d3ca42e0e5baa3b3[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Mon Jul 9 23:01:51 2018 +0200
+
+    change bg banner
+
+[33mcommit eed1115276ff49b696547002b1c706828cfb129d[m
+Merge: 8ca3bc6 461176b
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Mon Jul 9 22:31:31 2018 +0200
+
+    Merge pull request #8 from backseo/add_section_action_illustration
+    
+    Add section action illustration
+
+[33mcommit 461176bb1ecc62e5bbad226d4cc4370925cd7c1c[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Mon Jul 9 22:29:20 2018 +0200
+
+    add section CallToAction in illustrations
+
+[33mcommit 001e5327618be61ac76dac60a41526e48f2e1f86[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Mon Jul 9 22:25:28 2018 +0200
+
+    complete footer
+
+[33mcommit 8ca3bc62e6b7fd0804793469e84798819db68000[m
+Merge: ae27159 7ee8b7f
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Mon Jul 9 22:20:49 2018 +0200
+
+    Merge pull request #6 from backseo/add_footer
+    
+    add footer
+
+[33mcommit 7ee8b7f052bde6fbe126bed137beaa345276bea4[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Mon Jul 9 22:17:28 2018 +0200
+
+    add footer
+
+[33mcommit ae27159e8e87d7118953b754928a59922c271e5c[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Mon Jul 9 02:48:07 2018 +0200
+
+    add pages
+
+[33mcommit cd547c75e84e8171b29f7e789c19db7d61cf599f[m
+Merge: fe4204a 9c1d012
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Sun Jul 8 16:13:46 2018 +0200
+
+    Merge pull request #5 from backseo/page-print-design
+    
+    add more images
+
+[33mcommit 9c1d01261f0964ca831abc568416e7711697d96c[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Sun Jul 8 16:11:52 2018 +0200
+
+    add more images
+
+[33mcommit fe4204a737143eb45c523dcada5c3c8d5665ecb1[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Sat Jul 7 06:01:54 2018 +0200
+
+    status clean
+
+[33mcommit 6633e9060d32f0d9ed66e3c2c79f449e839cfd60[m
+Merge: 9f87e89 5b39d2e
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Sat Jul 7 01:02:38 2018 +0200
+
+    Merge pull request #4 from backseo/add_lightbox
+    
+    add lightbox
+
+[33mcommit 5b39d2ec1dc7d6304f76dbeacb30a75ba450a054[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Sat Jul 7 00:56:36 2018 +0200
+
+    add lightbox
+
+[33mcommit 9f87e89add55de7cabc9558b892286df0532ab33[m
+Merge: 1609702 85bdf6c
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Fri Jul 6 19:05:40 2018 +0200
+
+    Merge pull request #3 from backseo/homework
+    
+    Homework
+
+[33mcommit 85bdf6c19db14c53db63cae0c8e7e91ebadfdfcf[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Fri Jul 6 07:18:06 2018 +0200
+
+    delire
+
+[33mcommit 528cd4ee1aacec596fb36276447386beb6fbb859[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Fri Jul 6 00:09:51 2018 +0200
+
+    add img and check layout
+
+[33mcommit 16097021f4f95613b0992b09d2ca43ebfc90b590[m
+Merge: 1ac82e4 20dddee
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Thu Jul 5 19:14:52 2018 +0200
+
+    Merge pull request #2 from backseo/add_parallax_effect
+    
+    add homepage parallax effect
+
+[33mcommit 20dddee9c5362c286325d88d5339b51b118c90de[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Thu Jul 5 19:09:38 2018 +0200
+
+    add homeoage parallax effect
+
+[33mcommit 1ac82e4bde1a2b62df4915de86ae6ba4702970df[m
+Merge: 032a8c4 405d516
+Author: SERGE CLEORON <31158583+backseo@users.noreply.github.com>
+Date:   Thu Jul 5 18:45:55 2018 +0200
+
+    Merge pull request #1 from backseo/add_images
+    
+    add homepage and images
+
+[33mcommit 405d5168c8bd171c5cb567cf21cd6d2960b236f1[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Thu Jul 5 18:18:59 2018 +0200
+
+    add homepage images
+
+[33mcommit 032a8c409093a5f8a27d34456548426b46fa151a[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Thu Jul 5 17:34:58 2018 +0200
+
+    add navbar tab
+
+[33mcommit 1d075fdf501544a18680ce693205f1284c4669be[m
+Author: serge cleoron <sc21417@gmail.com>
+Date:   Thu Jul 5 15:38:20 2018 +0200
+
+    Generated a new middleman project with lewagon/middleman-template
