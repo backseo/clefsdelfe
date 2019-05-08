@@ -19,12 +19,9 @@
 }
 
 .cards:hover {
-  transform: scale(1.1);
   background: linear-gradient(155deg,
     rgba(0, 120, 0, 0.7) 0%,
     rgba(255, 205, 0, 1) 70%);
-  margin: 5px;
-transition: all 100ms ease-out;
 }
 
 .cards-category {

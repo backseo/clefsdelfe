@@ -4,8 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 4px;
-  padding: 4px;
+  margin: 10px;
   flex-wrap: wrap;
 }
 
@@ -22,14 +21,10 @@
 }
 
 .d2 {
-  padding: 2px 2px 2px 2px;
+  padding: 2px 0px 2px 0px;
   max-width: 75%;
   margin: 0 auto;
   text-align: center;
 }
 
-.plan {
-  background: rgba(255,251,188,1);
-  border-radius: 4px;
-  margin: 0 auto;
-}
+

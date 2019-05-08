@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  $("#welcome").hover(
+  $(".navbar-lrhg-item").hover(
     function(){ $(".banner-content h2").addClass('reveal') },
     function(){ $(".banner-content h2").removeClass('reveal') }
   )
