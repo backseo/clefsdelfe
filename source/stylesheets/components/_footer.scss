@@ -15,30 +15,23 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 50px;
-  background-color: $orange;
+  background-color: $purple-dark;
 }
 
 .list-menu {
-  color: black;
-  font-weight: bolder;
+  color: $gray;
   margin: 8px 2px 8px 2px;
 }
 
 .list-menu a {
-  background: rgba(255, 255, 255, 0.1);
-  color: $gray;
   padding: 0px 10px;
-  transition: all ease-in-out 300ms;
-
+  color: $gray;
 }
 .list-menu a:hover {
-background: rgba(200, 200, 200, 0.1);
-  border-radius: 2px;
-  opacity: 0.3;
   color: $red;
   opacity: 1;
   text-decoration: none;
-  transition: all ease-in-out 300ms;
+  transition: all ease-in-out 100ms;
 }
 
 .centree {

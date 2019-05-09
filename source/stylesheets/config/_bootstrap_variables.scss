@@ -6,8 +6,8 @@
 // General style
 $headings-font-family:    $headers-font;
 $font-family-sans-serif:  $body-font;
-$body-bg:                 $light-gray;
-$font-size-base: 18px;
+$body-bg:                 $purple-dark;
+$font-size-base: 16px;
 
 
 // Colors
@@ -24,3 +24,6 @@ $border-radius-large: 2px;
 $border-radius-small: 2px;
 
 // Override other variables below!
+$degrade1: linear-gradient(155deg,
+    rgba($purple, 0.8) 0%,
+    rgba($purple-dark, 1) 70%);

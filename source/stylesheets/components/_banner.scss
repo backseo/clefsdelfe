@@ -1,48 +1,98 @@
-.banner {height: 82vh;
-background: linear-gradient(135deg,
-    rgba(0,0,0,0.8) 0%,
-    rgba(0,0,0,0.3) 50%),
-url(../../images/banner1.jpg);
-background-size: cover;
-background-position: center;
-display: flex;
-justify-content: space-around;
-text-align: center;
+/* image slider css */
 
+#slider-main{
+    width: 100%;
+    overflow: hidden;
+}
+.img-slide{
+    width: 100%;
+    height: 90vh;
+    z-index: 5;
+    overflow-y: hidden;
+}
+#prev{
+    z-index: 10;
+    color: #000;
+    position: absolute;
+    background: transparent;
+    border: none;
+    margin-top: 40vh;
+    margin-left: 3%;
+    font-size: 60px !important;
+}
+#next{
+    color: #000;
+    position: absolute;
+    z-index: 100;
+    background: transparent;
+    border: none;
+    margin-top: -60vh;
+    margin-left: 93.5%;
+    font-size: 60px !important;
+}
+.circle{
+    border: #ccc 3px solid;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background: transparent;
+    display: inline-block;
+    cursor: pointer;
+}
+#circles{
+    margin-top: -15vh;
+    margin-left: 48.6%;
+    position: absolute;
+    z-index: 9000;
+}
+.image-animated{
+    animation: animateImage 5s ease-in-out; /* change time according to interval set */
 }
 
-.banner h1 {
-  font-weight: lighter;
-  color: rgba(255,255,255,0.9);
-  margin-bottom: 20px;
+@keyframes animateImage {
+    0%{
+        opacity: .2;
+        transform: scale(1.1,1.1);
+    }
+    20%{
+        opacity: 1;
+        transform: scale(1,1);
+    }
+    80%{
+        opacity: 1;
+        transform: scale(1,1);
+    }
+    95%{
+        opacity: .8;
+        transform: scale(1.1,1.1);
+    }
+    100%{
+        opacity: .8;
+        transform: scale(1.1,1.1);
+    }
 }
 
-.banner h4 {
-  font-weight: lighter;
-  color: rgba(255,255,255,0.8);
-  margin-bottom: 40px;
-}
-
-
-.btn-warning {
-  background-color: #ffcc00;
-  font-weight: 900;
-}
-
-.btn-warning:hover {
-    color: #fff;
-    background-color: #ffdd00;
-    border-radius: 5px;
-    transition: all ease-in-out 500ms;
-}
-
-.reveal {
-  transform: scale(1.1);
-  opacity: 1;
-}
-
-@media (max-width: 1250px) {
-  .banner-content h1 {
-  font-size: 2em;
-  }
+@media (max-width: 767px) {
+    .img-slide{
+        height: 40vh;
+    }
+    #prev{
+        font-size: 30px !important;
+        margin-top: 12vh;
+        margin-left: 0.5%;
+    }
+    #next{
+        font-size: 30px !important;
+        margin-top: -28vh;
+        margin-left: 88%;
+    }
+    .circle{
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+    }
+    #circles{
+        margin-top: -10vh;
+        margin-left: 36%;
+    }
 }

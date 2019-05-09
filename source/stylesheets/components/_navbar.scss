@@ -28,6 +28,7 @@
 .navbar-clefdelf-item {
   cursor: pointer;
   padding: 0 20px;
+  color: $yellow;
 }
 
 /* Navbar link */
@@ -46,12 +47,15 @@
   box-shadow: 1px 1px 4px $gray;
   border-color: #fff;
   background: $purple;
+  z-index: 2000;
+  background: linear-gradient(155deg,
+    rgba($purple, 0.8) 0%,
+    rgba($purple-dark, 0.9) 60%);
+  transition: all ease-in-out 500ms;
+
 }
 .navbar-clefdelf-dropdown-menu:hover{
-  background: linear-gradient(155deg,
-    rgba(0, 174, 0, 0.8) 0%,
-    rgba(255, 205, 0, 0.9) 60%);
-  transition: all 0.5s ease 0.1s;
+  transition: all ease-in-out 500ms;
 }
 
 .reveal {

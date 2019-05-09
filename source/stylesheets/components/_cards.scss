@@ -1,47 +1,42 @@
 .cards {
   background: linear-gradient(155deg,
-    rgba(0, 174, 0, 0.7) 0%,
-    rgba(255, 205, 0, 1) 70%);
-  background-position: center;
-  background-repeat: no-repeat;
+    rgba($purple, 0.7) 0%,
+    rgba($purple-dark, 1) 70%);
   position: relative;
-  height: 130px;
-  width: 260px;
-  margin: 10px;
-  border-radius: 5px;
-  -moz-box-shadow: 2px 2px 3px 2px #000000;
-  -webkit-box-shadow: 2px 2px 3px 2px #000000;
-  -o-box-shadow: 2px 2px 3px 2px #000000;
-  box-shadow: 2px 2px 3px 2px #000000;
-  filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=134, Strength=3);
-  transition: all 100ms ease-out;
+  height: 90px;
+  width: 160px;
+  margin: 8px;
+  border: 1px white solid;
+  border-radius: 10px;
   cursor: pointer;
+  transition: all 300ms ease;
 }
 
 .cards:hover {
-  background: linear-gradient(155deg,
-    rgba(0, 120, 0, 0.7) 0%,
-    rgba(255, 205, 0, 1) 70%);
+  transform: scale(1.1);
+  background: linear-gradient(165deg,
+    rgba($purple, 0.9) 0%,
+    rgba($white, 0.5) 70%);
+    border: 1px $purple solid;
+    box-shadow: 2px 2px 8px 1px black;
+    transition: all 300ms ease;
 }
 
 .cards-category {
   font-size: 1em;
   position: absolute;
   color: white;
-  position: absolute;
   top: 10px;
-  left: 10px;
+  left: 50px;
 }
 .cards-title h1 {
-  font-size: 3rem;
-  color: white;
   position: absolute;
-  top: 20px;
+  font-size: 2rem;
+  color: white;
+  top: 10px;
   left: 10px;
   z-index: 1;
 }
-
-
 
 .cards img {
   position: absolute;
