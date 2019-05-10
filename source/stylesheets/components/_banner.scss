@@ -1,3 +1,4 @@
+/* On pc and screen-tablettes */
 .banner {
   position: relative;
 }
@@ -8,22 +9,22 @@
   margin: 0px 4px;
 }
 
-.banner-text h4 {
+.banner-text h1 {
+  position: relative;
   font-size: 4rem;
   color: $white;
-  position: relative;
-  top: 250px;
+  top: 320px;
   z-index: 3;
-  margin: 0 auto;
 }
 
   .banner-text p {
-  text-align: center;
-  font-size: 2rem;
-  color: $white;
   position: relative;
-  top: 290px;
+  font-size: 1.8rem;
+  font-weight: lighter;
+  color: $white;
+  top: 350px;
   z-index: 3;
+  transform: scaleY(1.5);
 }
 
 /* image slider css */
@@ -42,6 +43,7 @@
 }
 
 #prev{
+  display: none;
     z-index: 10;
     color: #000;
     position: absolute;
@@ -53,12 +55,13 @@
 }
 
 #next{
+  display: none;
     color: #000;
     position: absolute;
     z-index: 100;
     background: transparent;
     border: none;
-    margin-top: -60vh;
+    margin-top: -50vh;
     margin-left: 93.5%;
     font-size: 60px !important;
 }
@@ -109,7 +112,7 @@
 
 /*on mobile only*/
 @media (max-width: 767px) {
-  .banner-text h4 {
+  .banner-text h1 {
     top: 180px;
     color: $white;
     font-size: 2.1rem;
@@ -119,22 +122,13 @@
     top: 200px;
     color: $white;
     font-size: 1.3rem;
-    font-weight: 600;
+    transform: scaleY(1);
   }
 
   .img-slide{
       height: 40vh;
   }
-  #prev{
-      font-size: 16px !important;
-      margin-top: 26vh;
-      margin-left: 0.5%;
-  }
-  #next{
-      font-size: 16px !important;
-      margin-top: -14vh;
-      margin-left: 88%;
-  }
+
   .circle{
       width: 15px;
       height: 15px;

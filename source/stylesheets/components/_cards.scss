@@ -7,7 +7,6 @@
   width: 250px;
   margin: 8px;
   border: 1px white solid;
-  border-radius: 10px;
   cursor: pointer;
   transition: all 300ms ease;
 }
@@ -22,13 +21,6 @@
     transition: all 300ms ease;
 }
 
-.cards-category {
-  position: absolute;
-  font-size: 1em;
-  color: white;
-  top: 60px;
-  left: 10px;
-}
 .cards-title h1 {
   position: absolute;
   font-size: 2rem;
@@ -36,6 +28,14 @@
   top: 10px;
   left: 10px;
   z-index: 1;
+}
+
+.cards-category {
+  position: absolute;
+  font-size: 1em;
+  color: white;
+  top: 60px;
+  left: 10px;
 }
 
 .cards img {

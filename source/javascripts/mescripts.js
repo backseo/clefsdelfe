@@ -5,6 +5,4 @@ $(document).ready(function() {
   //   function(){ $(".banner-content h2").removeClass('reveal') }
   // )
 
-console.log('toto');
-
 });

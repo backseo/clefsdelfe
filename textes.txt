@@ -1,15 +1,2 @@
-ENSEIGNE
-Les Ruchers des Hauts de Gironde
-ADRESSE
-8 avenue de Verdun
-33620 LAPOUYADE
-Téléphone
-Tél. : Mobile Pascal : 06 82 34 04 35
-Mobile Nathalie : 06 87 42 65 19
-TARIFS 2015
-Télécharger nos tarifs
-CARTOGRAPHIE
-Micro-région : LIBOURNAIS
-Département : GIRONDE
-EMAIL
-mielgironde33@gmail.com
+Les polices de caractères sont chargées sur googlefonts avec une connexion internet.
+A défaut de connexion une police par defaut est utilisé.
