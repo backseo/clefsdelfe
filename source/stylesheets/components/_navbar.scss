@@ -6,7 +6,7 @@
   width: 100%;
   background-color: $purple-dark;
   transition: all 0.3s ease;
-  height: 100px;
+  height: 130px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -24,9 +24,10 @@
 
 /* Logo */
 .navbar-clefdelf-brand img {
-  padding-left: 20px;
-  width: 100px;
-  height: 60px;  ;
+  margin-left: 80px;
+  height: 100px;
+  transition: all ease-out 200ms;
+
 }
 
 /* Right section */
