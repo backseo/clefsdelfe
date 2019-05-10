@@ -13,3 +13,7 @@ html body {
   box-sizing: border-box;
   font-family: $body-font;
 }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
