@@ -15,18 +15,13 @@
 }
 
 /*animation de la navbar*/
-.shrink {
-  height: 70px;
-  background: $purple-dark;
-  z-index: 10;
-  transition: all ease-in-out 500ms;
-}
+
 
 /* Logo */
 .navbar-clefdelf-brand img {
   margin-left: 80px;
   height: 100px;
-  transition: all ease-out 200ms;
+  transition: all ease-out 500ms;
 
 }
 
@@ -95,7 +90,5 @@
 }
 
 @media (max-width: 767px) {
-  .navbar-clefdelf {
-    height: 100px;
-  }
+
 }
