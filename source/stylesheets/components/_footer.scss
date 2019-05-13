@@ -19,17 +19,16 @@
 }
 
 .list-menu {
-  color: $gray;
+  color: $white;
   margin: 8px 2px 8px 2px;
 }
 
-.list-menu a {
-  padding: 0px 10px;
-  color: $gray;
+.list-menu li a {
+  padding: 0px 20px;
+  color: $white;
 }
-.list-menu a:hover {
-  color: $red;
-  opacity: 1;
+.list-menu li a:hover {
+  color: $yellow;
   text-decoration: none;
   transition: all ease-in-out 100ms;
 }

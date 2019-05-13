@@ -20,9 +20,14 @@
   border-radius: 4px;
   box-shadow: inset 2px 2px 5px 1px black;
   text-align: center;
-  padding: 220px 0px 150px 0px;
+  padding: 220px 18px 150px 18px;
   margin-bottom: 50px;
   font-size: 1.5rem;
+}
+
+.cdrfbox-coord h1 {
+  font-family: $body-font;
+  font-weight: bolder;
 }
 
 
