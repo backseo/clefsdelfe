@@ -5,20 +5,21 @@
 }
 
 .tabs-item{
-  font-size: 1.6rem;
-  font-family: $headers-font;
-  padding: 20px 20px;
+  font-family: $body-font;
+  font-size: 1.3rem;
+  padding: 10px 10px;
   flex: 1 0 auto;
   text-align: center;
   color: white;
-  text-decoration: none;
   cursor: pointer;
 }
 
 .tabs-item:hover {
+  padding: 10px 10px;
+  background-color: $purple;
+  border-radius: 3px;
   color: $yellow;
   flex: 1 0 auto;
-  font-size: 1.6rem;
   transition: all ease-in-out 500ms;
 }
 
@@ -71,7 +72,7 @@
 }
 
 .dropdown-content a {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   text-align: center;
   text-decoration: none;
   transition: all ease 100ms;

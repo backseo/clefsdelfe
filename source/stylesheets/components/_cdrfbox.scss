@@ -1,5 +1,5 @@
+/* Menu page accueil contenant les cards*/
 .cdrfbox-icon {
-  background: $purple;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -7,10 +7,26 @@
   flex-wrap: wrap;
   width: 100%;
   min-height: 160px;
-  border-top: 20px $purple-dark solid;
-  border-bottom: 20px $purple-dark solid;
+  margin-bottom: 50px;
 }
 
+.cdrfbox-coord {
+  background-color: $white;
+  background-image: url(../images/header_serie_purple_2.png);
+  background-position: center;
+  background-origin: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  box-shadow: inset 2px 2px 5px 1px black;
+  text-align: center;
+  padding: 220px 0px 150px 0px;
+  margin-bottom: 50px;
+  font-size: 1.5rem;
+}
+
+
+/* Section parallax */
 section {
   background-attachment: fixed;
   background-color: transparent;
@@ -22,18 +38,12 @@ section.sec-3 {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  & h2 {
-    position: relative;
-    top: 200px;
-    text-align: center;
-    color: white;
-  }
-  & h3 {
-    position: relative;
-    top: 250px;
-    left: 300px;
-    text-align: center;
-    color: white;
-  }
 }
 
+/*Mobile only*/
+@media only screen and (max-width: 768px) {
+  .cdrfbox-icon {
+    background: $purple;
+    border-radius: 4px;
+  }
+}

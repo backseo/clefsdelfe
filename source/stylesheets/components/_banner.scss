@@ -1,28 +1,28 @@
 /* On pc and screen-tablettes */
 .banner {
   position: relative;
+  top: -70px;
 }
 
 .banner-text {
   position: relative;
   text-align: center;
-  margin: 0px 4px;
 }
 
 .banner-text h1 {
   position: relative;
   font-size: 4rem;
   color: $white;
-  top: 320px;
+  top: 350px;
   z-index: 3;
 }
 
-  .banner-text p {
+.banner-text p {
   position: relative;
   font-size: 1.8rem;
   font-weight: lighter;
   color: $white;
-  top: 350px;
+  top: 380px;
   z-index: 3;
   transform: scaleY(1.5);
 }
@@ -113,13 +113,13 @@
 /*on mobile only*/
 @media (max-width: 767px) {
   .banner-text h1 {
-    top: 180px;
+    top: 240px;
     color: $white;
     font-size: 2.1rem;
   }
 
   .banner-text p {
-    top: 200px;
+    top: 260px;
     color: $white;
     font-size: 1.3rem;
     transform: scaleY(1);
