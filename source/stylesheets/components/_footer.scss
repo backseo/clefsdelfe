@@ -12,19 +12,20 @@
 
 .myfooter {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 10px 50px;
+  padding: 50px 10px;
   background-color: $purple-dark;
 }
 
 .list-menu {
   color: $white;
-  margin: 8px 2px 8px 2px;
+  margin: 4px 2px 4px 2px;
+  min-width: 250px;
 }
 
 .list-menu li a {
-  padding: 0px 20px;
+  padding: 10px 20px;
   color: $white;
 }
 .list-menu li a:hover {

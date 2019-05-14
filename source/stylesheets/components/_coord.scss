@@ -2,19 +2,15 @@
   background-color: $white;
   background-image: url(../images/header_serie_purple_2.png);
   background-position: center;
-  background-origin: center;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 4px;
   box-shadow: inset 2px 2px 5px 1px black;
   text-align: center;
-  padding: 220px 18px 150px 18px;
+  padding: 120px 18px 60px 18px;
   margin-bottom: 50px;
   font-size: 1.5rem;
+  opacity: 0.8;
 }
 
-.cdrfbox-coord h1 {
-  font-size: 3rem;
-  font-family: $body-font;
-  font-weight: bolder;
-}
+
