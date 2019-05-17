@@ -1,0 +1,87 @@
+/* Boite englobant les sections "page organisation"*/
+.cdrfbox-organ {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  vertical-align: center;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 400px;
+  margin-bottom: 50px;
+  padding-top: 50px; /*décalage anchor tag*/
+  color: $white;
+  background: $purple-gradient;
+}
+
+.cdrfbox-organ h1 {
+  position: relative;
+
+}
+
+.organ-menu-top {
+  opacity: 0.8;
+  counter-reset: stylitem;
+  position: fixed;
+  top: 100px;
+  left: -290px;
+  min-width: 340px;
+  border-radius: 4px;
+  border: 1px black solid;
+  background: $menu-gradient;
+  padding: 8px 0px;
+  z-index: 30;
+  transition: all ease-in-out 500ms;
+}
+
+.organ-menu-top:hover {
+  left: 17px;
+  background: $menu-gradient;
+  padding: 8px 0px;
+  transition: all ease-in-out 500ms;
+  margin: 0 auto;
+  border-radius: 8px;
+  border: 1px $purple solid;
+}
+
+.organ-menu-top ul{
+  list-style: none;
+  content: counter();
+  color: black;
+  font-size: 1rem;
+}
+
+
+
+.organ-menu-top i{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 8px;
+}
+
+#organ-menu-top-arrow {
+  transform: scale(2);
+  color: white;
+}
+
+.organ-menu-top a {
+  font-size: 1.4em;
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+}
+.organ-menu-top li:before {
+  counter-increment: stylitem;
+  content: " " counter(stylitem);
+}
+
+.organ-menu-top a:hover {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 10px;
+}
+
+#seminaires {
+  margin-top: 130px;
+  border: 1px green dotted;
+}

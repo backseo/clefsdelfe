@@ -1,13 +1,13 @@
 
 <%= partial 'layouts/components/banner' %>
 
-<div class="container">
+<div class="container" id="cards">
 
   <div class="cdrfbox-icon">
-    <div class="cards">
+    <div class="cards"><a href="organ.html">
       <div class="cards-title"><h1>Organisation</h1></div>
       <div class="cards-category">Salons<br>Repas d'affaires<br>Déplacements</div>
-          <img src="../images/icon-organ.png" height="90" alt="organisation">
+          <img src="../images/icon-organ.png" height="90" alt="organisation"></a>
     </div>
 
     <div class="cards">
@@ -31,8 +31,11 @@
     <div class="cards">
       <div class="cards-title"><h1>Contact</h1></div>
       <div class="cards-category">Tél : 06 26 71 14 27<br>Laissez un message</div>
-        <img src="../images/icon-contact.png" height="90" alt="contact">
     </div>
+    <a href="#banner"><div class="cards">
+      <div class="cards-title"><h1>Up</h1></div>
+      <i class="fa fa-arrow-up retour"></i>
+    </div></a>
   </div><!-- fin cdrfbox -->
 
   <%= partial 'layouts/components/coord' %>
@@ -41,7 +44,7 @@
 
 <section class="sec-3"
   data-stellar-background-ratio="0.5"
-  data-stellar-vertical-offset="-150"
+  data-stellar-vertical-offset="0"
   data-stellar-horizontal-offset="50">
 </section>
 

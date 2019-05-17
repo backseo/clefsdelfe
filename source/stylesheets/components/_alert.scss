@@ -13,3 +13,11 @@
 .alert-warning {
   background: $red;
 }
+
+.retour {
+  position: absolute;
+  top:125px;
+  left: 125px;
+  color:$white;
+  transform: scale(2);
+}

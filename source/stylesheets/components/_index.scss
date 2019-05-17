@@ -1,4 +1,5 @@
 // Import your components CSS files here.
+@import "about";
 @import "alert";
 @import "banner";
 @import "footer";
@@ -7,3 +8,7 @@
 @import "cards";
 @import "cdrfbox";
 @import "coord";
+
+.nav-offset-top {
+  margin-bottom: 130px;
+}

@@ -1,9 +1,13 @@
-.side-menu {
-  position: absolute;
-  left: 10px;
-  top: 10px;
-}
-
-.menu-left-link {
-  background: #FFee00;
+.cdrfbox-about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  vertical-align: center;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 400px;
+  margin-bottom: 50px;
+  padding-top: 50px; /*décalage anchor tag*/
+  color: $white;
+  background: $purple-gradient;
 }

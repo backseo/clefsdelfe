@@ -1,20 +1,21 @@
 <div class="navbar-clefdelf">
+
   <a href="http://localhost:4567" class="navbar-clefdelf-brand"><%= image_tag "Logo.png", alt: "LOGO CLEFS D'ELFE" %></a>
+
   <!-- Navigation Tabs -->
   <%= partial 'layouts/components/tab' %>
+
   <!-- Dropdown appearing on mobile only -->
-  <div class="navbar-clefdelf-item hidden-sm hidden-md hidden-lg">
+  <div class="navbar-clefdelf-item hidden-lg">
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu
-                dropdown-menu-right
-    navbar-clefdelf-dropdown-menu">
-        <li><a href="#.html">Organisation</a></h1><h1></li>
-        <li><a href="#.html">Services</a></h1><h1></li>
-        <li><a href="#.html">Réservations</a></h1><h1></li>
-        <li><a href="#.html">Contact</a></h1><h1></li>
-        <li><a href="about.html">A propos</a></h1><h1></li>
-        <li><a href="#.html">CGU</a></h1><h1></li>
+              dropdown-menu-right
+              navbar-clefdelf-dropdown-menu">
+        <li><a href="organ.html">Organisation</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">A propos</a></li>
       </ul>
     </div>
   </div>

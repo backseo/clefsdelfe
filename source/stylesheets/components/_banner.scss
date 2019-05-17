@@ -27,6 +27,16 @@
   transform: scaleY(1.5);
 }
 
+.banner-text a {
+  position: relative;
+  font-size: 1.8rem;
+  font-weight: lighter;
+  color: $white;
+  top: 420px;
+  z-index: 3;
+  border-radius: 4px;
+}
+
 /* image slider css */
 
 #slider-main{
@@ -124,6 +134,14 @@
     font-size: 1.3rem;
     transform: scaleY(1);
   }
+
+  .banner-text a {
+  position: relative;
+  font-size: 1.8rem;
+  color: $white;
+  top: 280px;
+  z-index: 3;
+}
 
   .img-slide{
       height: 40vh;
