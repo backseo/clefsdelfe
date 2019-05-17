@@ -2,7 +2,7 @@
 .navbar-clefdelf {
   position: fixed;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   top: 0;
   z-index: 25;
@@ -14,7 +14,7 @@
 
 /* Logo */
 .navbar-clefdelf-brand img {
-  margin-left: 80px;
+  margin-left: 10px;
   height: 120px;
   transition: all ease-out 300ms;
 }
@@ -36,33 +36,31 @@
 
 /* Dropdown menu */
 .navbar-clefdelf-dropdown-menu {
-  margin-top: 15px;
+  margin: 15px 0px;
+  padding-top: 10px;
   box-shadow: 1px 1px 4px $gray;
-  border-color: #fff;
+  border: 1px #fff solid;
+  border-radius: 4px;
   background: linear-gradient(155deg,
     rgba($purple, 0.8) 0%,
     rgba($purple-dark, 0.9) 60%);
   z-index: 20;
-  transition: all ease-in-out 500ms;
-}
-
-.navbar-clefdelf-dropdown-menu:hover{
-  transition: all ease-in-out 500ms;
 }
 
 .navbar-clefdelf-dropdown-menu li > a {
-  transition: color 0.3s ease;
   text-align: center;
   color: $white !important;
   font-weight: bolder;
   font-size: 1.3rem;
   line-height: 22px !important;
   padding: 10px 20px;
+  transition: all ease-in-out 300ms;
 }
 
 .navbar-clefdelf-dropdown-menu li > a:hover {
-  background: $purple-dark !important;
-  color: $white !important;
+  background: $purple !important;
+  color: $orange !important;
+  transition: all ease-in-out 100ms;
 }
 
 .navbar-clefdelf-dropdown-menu:before {

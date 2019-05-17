@@ -1,12 +1,12 @@
 <div class="navbar-clefdelf">
 
-  <a href="http://localhost:4567" class="navbar-clefdelf-brand"><%= image_tag "Logo.png", alt: "LOGO CLEFS D'ELFE" %></a>
+  <a href="http://localhost:4567" class="navbar-clefdelf-brand"><%= image_tag "Logo_anim.gif", alt: "LOGO CLEFS D'ELFE" %></a>
 
   <!-- Navigation Tabs -->
   <%= partial 'layouts/components/tab' %>
 
   <!-- Dropdown appearing on mobile only -->
-  <div class="navbar-clefdelf-item hidden-lg">
+  <div class="navbar-clefdelf-item hidden-md hidden-lg">
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu
@@ -16,6 +16,7 @@
         <li><a href="services.html">Services</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="about.html">A propos</a></li>
+        <li><a href="#.html">Autres</a></li>
       </ul>
     </div>
   </div>

@@ -1,13 +1,12 @@
 .tabs {
-  display: flex;
-  background-color: transparent;
+  display: inline-flex;
   margin: 0 auto;
 }
 
 .tabs-item{
-  font-family: $body-font;
+  font-family: $headers-font;
   font-size: 1.3rem;
-  padding: 10px 10px;
+  padding: 10px 16px;
   flex: 1 0 auto;
   text-align: center;
   color: white;
@@ -15,12 +14,11 @@
 }
 
 .tabs-item:hover {
-  padding: 10px 10px;
   background-color: $purple;
   border-radius: 3px;
   color: $yellow;
   flex: 1 0 auto;
-  transition: all ease-in-out 500ms;
+  transition: all ease-in-out 100ms;
 }
 
 .tabs-item a {

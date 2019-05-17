@@ -7,7 +7,7 @@
   width: 100%;
   min-height: 400px;
   margin-bottom: 50px;
-  padding-top: 10px; /*décalage anchor tag*/
+  padding: 10px;
   color: $white;
   background: $purple-gradient;
 }
@@ -20,9 +20,20 @@
 }
 
 .btn-design {
+  position: relative;
+  bottom: 10px;
+  margin: 0 auto;
+  text-align: center;
   margin-top: 50px;
   font-weight: bolder;
   font-size: 1.2rem;
   border-radius: 3px;
 
+}
+
+@media only screen and (max-width: 768px) {
+  .about-text {
+  padding-bottom: 12px;
+  font-size: 1.2rem;
+  }
 }
