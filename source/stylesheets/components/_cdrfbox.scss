@@ -1,5 +1,5 @@
 /* Boite Menu page accueil contenant les cards*/
-.cdrfbox-icon {
+.cdrfbox-cards {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -9,10 +9,7 @@
   min-height: 160px;
   margin-bottom: 50px;
   padding-top: 50px;
-}
-
-.cdrfbox-organ {
-  padding: 10px;
+  background: $purple;
 }
 
 /* Section parallax */
@@ -29,41 +26,9 @@ section.sec-3 {
   background-repeat: no-repeat;
 }
 
-.main-container {
-  border: 1px red solid;
-  background: rgba(20,20,20,1);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 10px;
-}
-
-.main-container-left {
-  border: 1px green solid;
-  padding: 2px 2px 2px 2px;
-  max-width: 50%;
-  margin: 0 auto;
-}
-
-.main-container-right {
-  border: 1px blue solid;
-  padding: 0px 10px 10px 10px;
-  margin: 0 auto;
-  margin-top: 5px;
-}
-
-.main-container-right2 {
-  border: 1px orange solid;
-  padding: 2px 0px 2px 0px;
-  margin: 0 auto;
-  text-align: center;
-}
-
 /*Mobile only*/
 @media only screen and (max-width: 768px) {
-  .cdrfbox-icon {
-    background: $purple;
+  .cdrfbox-cards {
     border-radius: 4px;
   }
 }

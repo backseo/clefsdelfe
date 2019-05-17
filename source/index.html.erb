@@ -1,50 +1,52 @@
 
 <%= partial 'layouts/components/banner' %>
 
+<%= partial 'layouts/components/coord' %>
+
 <div class="container" id="cards">
 
-  <div class="cdrfbox-icon">
-    <div class="cards"><a href="organ.html">
+  <div class="cdrfbox-cards">
+    <a href="organ.html"><div class="cards">
       <div class="cards-title"><h1>Organisation</h1></div>
       <div class="cards-category">Salons<br>Repas d'affaires<br>Déplacements</div>
-          <img src="../images/icon-organ.png" height="90" alt="organisation"></a>
-    </div>
+          <img src="../images/icon-organ.png" height="90" alt="organisation">
+    </div></a>
 
-    <div class="cards">
+   <a href="services.html"> <div class="cards">
       <div class="cards-title"><h1>Services</h1></div>
       <div class="cards-category">recherche de salle<br>Décoration<br>Web evénementiel<br></div>
           <img src="../images/icon-serv.png" height="90" alt="services">
     </div>
 
-    <div class="cards">
+    <a href="reserv.html"><div class="cards">
       <div class="cards-title"><h1>Réservations</h1></div>
       <div class="cards-category">Location voiture<br>Train / Avion<br>Taxi</div>
        <img src="../images/icon-reserv.png" height="90" alt="réservation">
     </div>
 
-    <div class="cards">
+    <a href="deco.html"><div class="cards">
       <div class="cards-title"><h1>Décoration</h1></div>
       <div class="cards-category">Plantes<br>Lampes<br>Verre de Murano</div>
         <img src="../images/icon-deco.png" height="90" alt="décoration">
     </div>
 
-    <div class="cards">
+    <a href="contact.html"><div class="cards">
       <div class="cards-title"><h1>Contact</h1></div>
       <div class="cards-category">Tél : 06 26 71 14 27<br>Laissez un message</div>
-    </div>
+       <img src="../images/icon-contact.png" height="90" alt="contact">
+    </div></a>
+
     <a href="#banner"><div class="cards">
-      <div class="cards-title"><h1>Up</h1></div>
+      <div class="cards-title"><h1>Haut de page</h1></div>
       <i class="fa fa-arrow-up retour"></i>
     </div></a>
   </div><!-- fin cdrfbox -->
-
-  <%= partial 'layouts/components/coord' %>
 
 </div><!-- fin container -->
 
 <section class="sec-3"
   data-stellar-background-ratio="0.5"
-  data-stellar-vertical-offset="0"
+  data-stellar-vertical-offset="-150"
   data-stellar-horizontal-offset="50">
 </section>
 

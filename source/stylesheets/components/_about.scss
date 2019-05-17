@@ -7,7 +7,22 @@
   width: 100%;
   min-height: 400px;
   margin-bottom: 50px;
-  padding-top: 50px; /*décalage anchor tag*/
+  padding-top: 10px; /*décalage anchor tag*/
   color: $white;
   background: $purple-gradient;
+}
+
+.about-text {
+  background: transparent;
+  text-indent: 2rem;
+  padding-bottom: 12px;
+  font-size: 1.5rem;
+}
+
+.btn-design {
+  margin-top: 50px;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  border-radius: 3px;
+
 }

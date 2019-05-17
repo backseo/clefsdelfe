@@ -1,8 +1,10 @@
 // Import Google fonts
-@import url('https://fonts.googleapis.com/css?family=Cinzel|Robotto');
+
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Quicksand');
+
 
 // Define fonts for body and headers
-$headers-font: "Robotto", "sans-serif";
+$headers-font: "Quicksand", "sans-serif";
 $body-font: "Cinzel", "sans-serif";
 
 
@@ -12,7 +14,6 @@ h1, h2, h3, h4, h5, h6 {
 
 html body {
   box-sizing: border-box;
-  font-family: $body-font;
 }
 
 *, *:before, *:after {
