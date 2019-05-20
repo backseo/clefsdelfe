@@ -1,7 +1,8 @@
 .cdrfbox-coord {
-  background-color: $white;
+  color: $white;
   background-image: url(../images/header_serie_purple_2.png);
   background-position: center;
+  background-color: rgba($purple, 0.1);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 4px;
@@ -9,7 +10,7 @@
   text-align: center;
   padding: 120px 18px 60px 18px;
   margin-bottom: 50px;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   opacity: 0.8;
 }
 

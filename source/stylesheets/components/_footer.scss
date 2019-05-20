@@ -1,21 +1,9 @@
-.foot-up {
-  background-image: url('../images/alveol1.png');
-  height: 167px;
-  width: 100%;
-}
-
-.foot-down {
-  background-image: url('../images/fx-down.png');
-  height: 167px;
-  width: 100%;
-}
-
 .myfooter {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 50px 10px;
-  background-color: $purple-dark;
+  background-color: $purple-darker;
 }
 
 .list-menu {

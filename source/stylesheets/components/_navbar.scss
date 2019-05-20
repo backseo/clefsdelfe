@@ -2,12 +2,12 @@
 .navbar-clefdelf {
   position: fixed;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   top: 0;
   z-index: 25;
   width: 100%;
-  background-color: $purple-dark;
+  background-color: $purple-darker;
   height: 130px;
   transition: all ease-in-out 300ms;
 }
