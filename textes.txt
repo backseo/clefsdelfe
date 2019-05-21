@@ -6,6 +6,10 @@ A défaut de connexion une police par defaut est utilisé.
 A FAIRE !!!
 --------------------
 
+"BANNIERE ACCUEIL"
+
+1/ Définir (trouver) 3 à 5 photos représentatives de l'activité de CLEFS D'ELFE.
+
 "ORGANISATION"
 
 1/ Rédiger les textes de chaques rubriques.
@@ -17,7 +21,7 @@ A FAIRE !!!
 - activités récréatives
 - déplacements
 
-2/ Pour chaque rubriques me fournir la ou les photos à insérer.
+2/ Pour chaque rubriques définir(trouver) la ou les photos à insérer.
 (Photos de lieux, de salles de conférences, de séminaires, d'hôtels, de châteaux, d'activités...).
 Tout ce que l'on veux montrer pour capter le client.
 
