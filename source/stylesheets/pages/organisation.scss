@@ -1,3 +1,17 @@
+/* banner organisation */
+.cdrfbox-organ-banner {
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  min-height: 400px;
+  text-align: center;
+  color: $white;
+  margin-bottom: 40px;
+  padding: 100px 2px 0px 20px;
+}
+
+
+
 /* Boite englobant les sections "page organisation"*/
 .cdrfbox-organ {
   position: relative;
@@ -18,15 +32,14 @@
 .cdrfbox-inter {
   position: relative;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  vertical-align: center;
   flex-wrap: wrap;
   width: 100%;
-  min-height: 200px;
+  min-height: 80px;
   margin-bottom: 50px;
-  padding: 50px 20px 8px 20px; /*décalage anchor tag*/
-  color: $white;
+  padding: 10px 4px 10px 4px; /*décalage anchor tag*/
+  color: black;
   background: $white;
   background-size: cover;
   text-indent: 2rem;
@@ -94,6 +107,20 @@
   box-shadow: inset 1px 1px 1px 1px;
 }
 
+.organ-menu-top i{
+  position: absolute;
+  top: 5px;
+  right: 2px;
+  padding: 8px;
+  transform: scale(1.5);
+  color: white;
+}
+
+#arrow-down {
+  position: absolute;
+  top: 150px;
+}
+
 .title-omt {
   position: absolute;
   top: 2px;
@@ -116,18 +143,9 @@
   color: black;
 }
 
-.organ-menu-top i{
-  position: absolute;
-  top: 10px;
-  right: 2px;
-  padding: 8px;
-  transform: scale(1.5);
-  color: white;
-}
-
 #icon-omt {
   position: absolute;
-  top: 65px;
+  top: 58px;
   right: 2px;
   padding: 4px;
 }

@@ -1,10 +1,8 @@
 
 <%= partial 'layouts/components/banner' %>
+<div id="link-decouvrir"></div>
+<%= partial 'layouts/components/about' %>
 <div class="container">
-  <%= partial 'layouts/components/coord' %>
-</div>
-
-<div class="container" id="cards">
 
   <div class="cdrfbox-cards">
     <a href="organ.html"><div class="cards">
@@ -20,7 +18,7 @@
     </div>
 
     <a href="reserv.html"><div class="cards">
-      <div class="cards-title"><h1>Réservations</h1></div>
+      <div class="cards-title"><h1>Déplacements</h1></div>
       <div class="cards-category">Location voiture<br>Train / Avion<br>Taxi</div>
        <img src="../images/icon-reserv.png" height="90" alt="réservation">
     </div>
@@ -43,8 +41,11 @@
        <img src="../images/Logo1.png" height="70" alt="contact">
     </div></a>
   </div><!-- fin cdrfbox -->
-
 </div><!-- fin container -->
+
+<div class="container">
+  <%= partial 'layouts/components/coord' %>
+</div>
 
 <section class="sec-3"
   data-stellar-background-ratio="0.5"
