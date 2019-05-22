@@ -1,0 +1,17 @@
+.cdrfbox-service {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  vertical-align: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: $white;
+  background: $purple-gradient;
+  box-shadow: $box-shadow-in;
+}
+
+.cdrfbox-service p {
+  text-indent: 2rem;
+}

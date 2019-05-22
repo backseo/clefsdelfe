@@ -1,12 +1,28 @@
+/* Boite Menu page accueil contenant les cards*/
+.cdrfbox-cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  vertical-align: center;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 160px;
+  margin-bottom: 50px;
+  padding: 50px 0px;
+  background: $purple;
+  box-shadow: $box-shadow-in;
+}
+
 .cards {
   background: linear-gradient(155deg,
     rgba($purple, 0.7) 0%,
     rgba($purple-dark, 1) 70%);
   position: relative;
-  height: 120px;
-  width: 250px;
+  height: 60px;
+  width: 200px;
   margin: 8px;
   border: 1px white solid;
+  border-radius: 3px;
   cursor: pointer;
   transition: all 300ms ease;
 }
@@ -25,7 +41,7 @@
   position: absolute;
   font-size: 1.7rem;
   color: white;
-  top: 36px;
+  top: 4px;
   left: 10px;
   z-index: 1;
 }
@@ -39,19 +55,21 @@
 }
 
 .cards img {
-  border-radius: 3px;
   position: absolute;
-  bottom: 10px;
-  right: 10px;
+  border-radius: 3px;
+  top: 4px;
+  right: 4px;
+  height: 50px;
+
 }
 
-@media only screen and (min-with: 768px) {
-  .cards {
-    height: 120px;
-    width: 95%;
-    margin: 8px;
-    border: 1px white solid;
-    cursor: pointer;
-    transition: all 300ms ease;
+/*Mobile only*/
+@media only screen and (max-width: 768px) {
+  .cdrfbox-cards {
+    border-radius: 4px;
   }
+  .cards {
+    width: 250px;
+  }
+
 }
