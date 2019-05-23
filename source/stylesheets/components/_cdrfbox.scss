@@ -35,4 +35,27 @@ section.sec-3 {
 }
 
 
+/* bouton récurrent*/
+.contact-btn {
+  padding: 10px;
+  background: $orange;
+  margin: 20px 0px;
+  box-shadow: $box-shadow;
+  border-radius: 4px;
+  border: 1px $yellow solid;
+}
 
+.contact-btn:hover {
+  transform: scale(1.1);
+}
+
+.contact-btn a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all ease-in-out 200ms;
+}
+
+.contact-btn a:hover {
+  color: white;
+}

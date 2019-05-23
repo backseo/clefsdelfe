@@ -5,7 +5,7 @@
   vertical-align: center;
   flex-wrap: wrap;
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   padding: 10px;
   color: $white;
   background: $purple-gradient;
@@ -14,4 +14,11 @@
 
 .cdrfbox-service p {
   text-indent: 2rem;
+  font-size: 1.6rem;
+}
+
+@media (max-width: 768px) {
+  .cdrfbox-service p {
+  font-size: 1.3rem;
+}
 }
