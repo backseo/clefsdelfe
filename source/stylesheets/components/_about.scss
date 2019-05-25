@@ -31,7 +31,7 @@
 
 }
 
-@media only screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
   .about-text {
   padding-bottom: 12px;
   font-size: 1.2rem;
