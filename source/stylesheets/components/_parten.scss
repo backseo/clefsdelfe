@@ -1,0 +1,19 @@
+.parten-title {
+  text-align: center;
+  color: white;
+}
+
+.partenfbox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 8px;
+  color: $white;
+  background: Transparent;
+  width: 100%;
+}
+
+.parten-logo {
+  margin: 4px;
+}
