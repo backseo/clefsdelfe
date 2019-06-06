@@ -29,6 +29,7 @@
   padding: 50px 20px 8px 20px; /*décalage anchor tag*/
   color: $white;
   background: $purple-gradient;
+  box-shadow: $box-shadow-in;
 }
 
 .cdrfbox-organ p {
@@ -61,7 +62,7 @@
 #logo {
   position: absolute;
   top: 10px;
-  right: 20px;
+  left: 20px;
   opacity: 0.1;
 }
 
@@ -85,6 +86,7 @@
   border-top-left-radius: 8px;
   margin-bottom: 20px;
   color: $white;
+  box-shadow: $box-shadow;
 }
 
 .cdrfbox-organ h2 {
@@ -149,7 +151,7 @@
 .organ-menu-top:hover {
   left: 0px;
   border-radius: 4px;
-  border: 1px rgba(255,255,255, 0.3) solid;
+  border: 1px rgba(255,255,255, 0.1) solid;
   transition: all ease-in-out 500ms;
 }
 
