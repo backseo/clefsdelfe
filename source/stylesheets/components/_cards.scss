@@ -12,6 +12,11 @@
   box-shadow: $box-shadow-in;
 }
 
+/*offset nav top for anchor cards*/
+.cdrfbox-cards:first-child {
+  margin-top: 60px;
+}
+
 .cards {
   background: linear-gradient(155deg,
     rgba($purple, 0.7) 0%,
