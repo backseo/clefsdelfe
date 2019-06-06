@@ -1,14 +1,15 @@
 .cdrfbox-coord {
+  border: 2px red solid;
+  position: relative;
   color: $white;
-  background-image: url(../images/header_serie_purple_2.png);
+  background: $purple-gradient;
   background-position: center;
-  background-color: rgba($purple, 0.1);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 4px;
   box-shadow: $box-shadow-in;
   text-align: center;
-  padding: 120px 18px 60px 18px;
+  padding: 50px 18px 60px 18px;
   margin-bottom: 50px;
   font-size: 1.8rem;
   opacity: 0.8;
@@ -20,3 +21,4 @@
     font-size: 1.4rem;
   }
 }
+

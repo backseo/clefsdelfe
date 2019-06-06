@@ -94,7 +94,7 @@
 }
 
 .image-animated{
-    animation: animateImage 5s ease-in-out; /* change time according to interval set */
+    animation: animateImage 5s ease-in; /* change time according to interval set */
 }
 
 @keyframes animateImage {

@@ -12,8 +12,6 @@ section.sec-3 {
   background-repeat: no-repeat;
 }
 
-
-
 .mainfbox {
   position: relative;
   display: flex;
@@ -46,6 +44,7 @@ section.sec-3 {
 }
 
 .contact-btn:hover {
+  background: $orange;
   transform: scale(1.1);
 }
 
@@ -59,3 +58,7 @@ section.sec-3 {
 .contact-btn a:hover {
   color: white;
 }
+
+
+
+
