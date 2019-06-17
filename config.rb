@@ -8,6 +8,8 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+set :images_dir, 'images'
+
 
 configure :build do
   activate :minify_css
