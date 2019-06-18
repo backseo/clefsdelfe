@@ -3,11 +3,10 @@
   margin: 0 auto;
 }
 
-.tabs-item{
+.tabs-item {
   font-family: $headers-font;
   font-size: 1.4rem;
-  padding: 10px 16px;
-  flex: 1 0 auto;
+  padding: 10px 4px;
   text-align: center;
   color: white;
   cursor: pointer;
@@ -32,4 +31,41 @@
   text-decoration: none;
 }
 
+.tabs-item:before {
+  position: absolute;
+  bottom: 50px;
+  content: "";
+  width: 0;
+  height: 2px;
+  transition: all ease-in-out 500ms;
+}
+
+.tabs-item:hover:before {
+  position: absolute;
+  content: "";
+  width: 90px;
+  height: 2px;
+  background: $orange;
+  opacity: 0;
+
+}
+
+.tabs-item a:after {
+  position: absolute;
+  bottom: 50px;
+  content: "";
+  width: 0;
+  height: 0px;
+  transition: all ease-in-out 500ms;
+}
+
+.tabs-item a:hover:after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 30px;
+  background: $orange;
+  opacity: 0;
+
+}
 
