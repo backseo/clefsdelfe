@@ -20,6 +20,10 @@ $purple-darker:#240e3a;
 $brown:#998675;
 $brown-dark: #4a4f45;
 
+$banner-gradient: linear-gradient(165deg,
+    rgba($purple, 0.7) 0%,
+    rgba($purple-dark, 0.9) 70%);
+
 $purple-gradient : linear-gradient(165deg,
     rgba($purple, 0.9) 0%,
     rgba($white, 0.5) 70%);

@@ -1,0 +1,46 @@
+.banner {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: url(../images/1.jpg);
+  background-size: cover;
+  background-origin: center center;
+  margin-bottom: 50px;
+}
+
+.banner-text {
+  text-align: center;
+  color: white;
+  background: $banner-gradient;
+  padding: 20px 8px;
+  margin: 8px;
+}
+
+.banner-text h1 {
+  margin-bottom: 30px;
+}
+
+.banner-text h4 {
+  margin-bottom: 50px;
+  transform: scale(1.2) ;
+}
+
+@media (max-width: 768px) {
+  .banner-text {
+    padding: 20px 8px;
+    margin: 8px;
+    border-radius: 3px;
+  }
+  .banner-text h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .banner-text h4 {
+    font-size: 1.2rem;
+    transform: scale(1) ;
+    margin: 10px;
+  }
+}
