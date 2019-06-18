@@ -11,12 +11,14 @@
   padding: 8px;
   margin-bottom: 20px;
   color: $white;
-  background: Transparent;
+  background: content-box radial-gradient(#7d2dbf, #351054);
+  background-size: cover;
   width: 100%;
   clear: bottom;
 }
 
 .parten-logo {
-  margin: 4px;
-  border-radius: 50%;
+  margin-top: 16px;
+  border-radius: 10px;
 }
+
