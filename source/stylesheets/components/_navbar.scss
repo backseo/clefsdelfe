@@ -48,11 +48,6 @@
   min-width: 150px;z-index: 10;
 }
 
-.dropdown-content:first-child,
-.dropdown-content:last-child {
-  padding: 20px 0px;
-}
-
 .dropdown:hover .dropdown-content {
   display: block;
   z-index: 10
@@ -84,11 +79,11 @@
 /* Dropdown menu */
 .navbar-clefdelf-dropdown-menu {
   margin: 15px 0px;
-  padding-top: 10px;
+  padding-top: 5px;
   box-shadow: 1px 1px 4px $gray;
   border: 1px #fff solid;
-  border-radius: 4px;
-  background: $degrade1;
+  border-radius: 3px;
+  background: $menu-gradient;
   z-index: 20;
 }
 
@@ -99,11 +94,13 @@
   font-size: 1.3rem;
   line-height: 22px !important;
   padding: 10px 20px;
+  transform: scaleY(1.1);
   transition: all ease-in-out 300ms;
 }
 
+
 .navbar-clefdelf-dropdown-menu li > a:hover {
-  background: $purple !important;
+  background: $purple-dark !important;
   color: $orange !important;
   transition: all ease-in-out 100ms;
 }
