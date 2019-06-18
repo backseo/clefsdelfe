@@ -88,16 +88,14 @@
   box-shadow: 1px 1px 4px $gray;
   border: 1px #fff solid;
   border-radius: 4px;
-  background: linear-gradient(155deg,
-    rgba($purple, 0.8) 0%,
-    rgba($purple-dark, 0.9) 60%);
+  background: $degrade1;
   z-index: 20;
 }
 
 .navbar-clefdelf-dropdown-menu li > a {
   text-align: center;
   color: $white !important;
-  font-weight: bolder;
+  font-family: $headers-font;
   font-size: 1.3rem;
   line-height: 22px !important;
   padding: 10px 20px;
