@@ -4,15 +4,15 @@
   justify-content: center;
   background-size: cover;
   background-origin: center;
-  min-height: 400px;
+  min-height: 300px;
   text-align: center;
   color: $white;
   margin-bottom: 40px;
-  padding: 100px 2px 0px 20px;
+  padding: 130px 2px 0px 20px;
 }
 
 .cdrfbox-organ-banner h3 {
-    font-size: 2.8rem;
+    font-size: 2.3rem;
     margin: 0px 30px;
   }
 
@@ -29,9 +29,15 @@
   min-height: 200px;
   margin-bottom: 50px;
   padding: 50px 20px 8px 20px; /*décalage anchor tag*/
-  color: $white;
+  color: black;
   background: $purple-gradient;
   box-shadow: $box-shadow-in;
+  border-radius: 4px;
+}
+
+.cdrfbox-organ h2 {
+  position: relative;
+  margin-bottom: 30px;
 }
 
 .cdrfbox-organ p {
@@ -81,20 +87,14 @@
   margin: 0 auto;
 }
 
-
 .page-title {
   background: $purple-gradient;
   padding: 8px;
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
   margin-bottom: 20px;
-  color: $white;
+  color: black;
   box-shadow: $box-shadow;
-}
-
-.cdrfbox-organ h2 {
-  position: relative;
-  margin-bottom: 30px;
 }
 
 .organ-menu-top {
@@ -208,7 +208,7 @@
   padding: 0;
   font-size: 0;
   text-align: left;
-  animation: 30s slidy infinite;
+  animation: 50s slidy infinite;
 }
 
 #sliderje figure img {
@@ -239,6 +239,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .cdrfbox-organ-banner {
+    padding: 90px 2px 0px 20px;
+  }
+
   .cdrfbox-organ-banner h3 {
     font-size: 2rem;
     margin: 0px 10px;
@@ -248,4 +252,10 @@
     font-size: 1.3rem;
     padding: 0px 8px;
   }
+
+  #sliderje {
+  width: 90%;
+  max-width: 1000px;
+  overflow: hidden;
+}
 }

@@ -89,7 +89,7 @@
 
 .navbar-clefdelf-dropdown-menu li > a {
   text-align: center;
-  color: $white !important;
+  color: black !important;
   font-family: $headers-font;
   font-size: 1.3rem;
   line-height: 22px !important;
@@ -100,7 +100,7 @@
 
 
 .navbar-clefdelf-dropdown-menu li > a:hover {
-  background: $purple-dark !important;
+  background: $purple !important;
   color: $orange !important;
   transition: all ease-in-out 100ms;
 }

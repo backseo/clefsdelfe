@@ -5,7 +5,7 @@
   min-height: 400px;
   margin-bottom: 50px;
   padding: 10px;
-  color: $white;
+  color: black;
   border-radius: 4px;
   background: $purple-gradient;
 }
@@ -25,10 +25,14 @@
   background-color: #eee;
 }
 
+.form-group {
+  text-decoration: none;
+  list-style: none;
+}
+
 .form-group label,
 .form-group input {
   color: $purple-dark;
-  transform: scaleY(1.2)
+  transform: scaleY(1.2);
 }
-
 

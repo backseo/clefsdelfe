@@ -8,17 +8,17 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  padding: 8px;
+  padding: 0px;
   margin-bottom: 20px;
   color: $white;
   background: content-box radial-gradient(#7d2dbf, #351054);
   background-size: cover;
   width: 100%;
-  clear: bottom;
 }
 
 .parten-logo {
-  margin-top: 16px;
+  margin: 16px 3px;
+
   border-radius: 10px;
 }
 

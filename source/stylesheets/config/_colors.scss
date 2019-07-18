@@ -2,7 +2,7 @@
 
 // For example:
 $grey: #F3F3F3;
-$light-gray: #F4F4F4;
+$light-gray: #6b6b6b;
 $gray: #000000;
 $darker-grey: #e5e5e5;
 $red: #F8AC00;
@@ -16,15 +16,13 @@ $orange: #FFAE00;
 
 $purple: #7d2dbf;
 $purple-dark:#d19be8;
-
-
-$purple-darker:#240e3a;
+$purple-darker:#b477ce;
 $brown:#998675;
 $brown-dark: #4a4f45;
 
 $banner-gradient: linear-gradient(165deg,
-    rgba($purple, 0.7) 0%,
-    rgba($purple-dark, 0.9) 70%);
+    rgba($purple, 0.4) 0%,
+    rgba($purple-dark, 0.6) 70%);
 
 $purple-gradient : linear-gradient(165deg,
     rgba($purple, 0.9) 0%,
