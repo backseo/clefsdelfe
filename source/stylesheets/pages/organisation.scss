@@ -195,6 +195,49 @@
   text-decoration: none;
 }
 
+#sliderje {
+  width: 80%;
+  max-width: 1000px;
+  overflow: hidden;
+}
+
+#sliderje figure {
+  position: relative;
+  width: 800%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  text-align: left;
+  animation: 30s slidy infinite;
+}
+
+#sliderje figure img {
+  width: 12.5%;
+  height: auto;
+  float: left;
+}
+
+@keyframes slidy {
+  0% { left: 0%; }
+  10% { left: 0%; }
+  11% { left: -100%; }
+  21% { left: -100%; }
+  22% { left: -200%; }
+  32% { left: -200%; }
+  33% { left: -300%; }
+  43% { left: -300%; }
+  44% { left: -400%; }
+  54% { left: -400%; }
+  55% { left: -500%; }
+  65% { left: -500%; }
+  66% { left: -600%; }
+  76% { left: -600%; }
+  77% { left: -700%; }
+  100% { left: -700%; }
+
+
+}
+
 @media only screen and (max-width: 768px) {
   .cdrfbox-organ-banner h3 {
     font-size: 2rem;
