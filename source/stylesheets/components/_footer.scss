@@ -1,7 +1,7 @@
 .footer-up {
-  background: $purple-darker;
+  background: $purple-footer;
   text-align: center;
-  color: $white;
+  color: black;
   padding: 6px 0px;
 }
 
@@ -10,17 +10,17 @@
   justify-content: space-around;
   align-items: center;
   padding: 50px 10px;
-  background-color: $purple-darker;
+  background-color: $purple-footer;
 }
 
 .list-menu {
-  color: $white;
+  color: black;
   margin: 4px 2px 4px 2px;
   min-width: 250px;
 }
 
 .list-menu li a {
-  color: $white;
+  color: black;
 }
 .list-menu li a:hover {
   color: $yellow;
@@ -32,4 +32,7 @@
   margin: 0 auto;
 }
 
+.gafa i {
+  margin: 0px 16px;
+}
 
