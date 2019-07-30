@@ -29,7 +29,6 @@
   box-shadow: 1px 1px 4px 0px black;
   border-radius: 3px;
   cursor: pointer;
-  transition: all 100ms ease-in-out;
 }
 
 .cards:hover {
@@ -38,14 +37,13 @@
     rgba($purple, 0.9) 0%,
     rgba($white, 0.5) 70%);
     border: 1px $purple solid;
-    box-shadow: 2px 2px 8px 1px black;
-    transition: all 100ms ease-in-out;
+    box-shadow: 1px 1px 4px 1px black;
 }
 
 .cards-title h1 {
   position: absolute;
   font-size: 1.7rem;
-  color: white;
+  color: $gray;
   top: 4px;
   left: 10px;
   z-index: 1;

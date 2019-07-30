@@ -50,7 +50,7 @@
 
 }
 
-.tabs-item a:after {
+.tabs-item:after {
   position: absolute;
   bottom: 50px;
   content: "";
@@ -59,7 +59,7 @@
   transition: all ease-in-out 500ms;
 }
 
-.tabs-item a:hover:after {
+.tabs-item:hover:after {
   position: absolute;
   content: "";
   width: 2px;

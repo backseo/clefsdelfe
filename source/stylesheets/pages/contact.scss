@@ -32,7 +32,10 @@
 
 .form-group label,
 .form-group input {
-  color: $purple-dark;
-  transform: scaleY(1.2);
+  color: black;
+  transform: scaleY(1.1);
 }
 
+label {
+  color: $gray;
+}
