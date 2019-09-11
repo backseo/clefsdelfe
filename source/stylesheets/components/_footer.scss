@@ -6,21 +6,18 @@
 }
 
 .myfooter {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 50px 10px;
+  margin: 0 auto;
   background-color: $purple-footer;
 }
 
 .list-menu {
   color: black;
-  margin: 4px 2px 4px 2px;
-  min-width: 250px;
+  margin: 4px 2px 4px 80px;
 }
 
 .list-menu li a {
   color: black;
+  white-space: nowrap;
 }
 .list-menu li a:hover {
   color: $yellow;
@@ -28,11 +25,12 @@
   transition: all ease-in-out 100ms;
 }
 
-.centree {
+.gafa {
   margin: 0 auto;
 }
-
 .gafa i {
   margin: 0px 16px;
+  color: black;
 }
+
 
